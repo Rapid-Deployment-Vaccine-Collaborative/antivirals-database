@@ -151,12 +151,12 @@
       "drugNormalized": "artesunate",
       "virusShort": "CMV",
       "virusLong": "Human betaherpesvirus 5",
-      "target": "",
-      "mechanism": "",
+      "target": "Unknown",
+      "mechanism": "Unclear",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -240,9 +240,9 @@
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -269,9 +269,9 @@
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -328,7 +328,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -384,7 +384,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -410,12 +410,12 @@
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -439,11 +439,11 @@
       "virusShort": "HCV",
       "virusLong": "Hepacivirus C",
       "target": "Human CYPs",
-      "mechanism": "cyclophilin inhibitor; Calcineurin inhibitor",
+      "mechanism": "Calcineurin inhibitor; allows for inhibition of T cell activation",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -498,9 +498,9 @@
       "target": "Viral DNA pol",
       "mechanism": "Pyrophosphate analog DNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": true,
@@ -530,9 +530,9 @@
       "target": "Viral DNA pol",
       "mechanism": "Viral RNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": true,
@@ -562,9 +562,9 @@
       "target": "Viral DNA pol",
       "mechanism": "Viral RNA polymerase inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -593,7 +593,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -651,7 +651,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -682,7 +682,7 @@
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -712,7 +712,7 @@
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -739,7 +739,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -767,7 +767,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -822,12 +822,12 @@
       "drugNormalized": "niclosamide",
       "virusShort": "SARS-CoV-2",
       "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "multiple",
+      "target": "Human (multiple)",
       "mechanism": "inhibiting oxidative phosphorylation",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "uncertain",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -856,7 +856,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "uncertain",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -883,9 +883,9 @@
       "target": "Human pyruvate synthase",
       "mechanism": "Pyruvate inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -968,9 +968,9 @@
       "target": "Human pyruvate synthase",
       "mechanism": "Pyruvate inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -1026,7 +1026,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "unknown",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -1079,9 +1079,9 @@
       "target": "Viral RNA pol",
       "mechanism": "Nucleoside inhibitor; Guanosine (ribonucleic) analog",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": true,
@@ -1147,7 +1147,7 @@
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1204,7 +1204,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -1266,7 +1266,7 @@
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1295,7 +1295,7 @@
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1321,7 +1321,7 @@
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -1353,7 +1353,7 @@
       "phase3Initiated": true,
       "phase3Result": "negative",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1374,15 +1374,15 @@
       "drugNormalized": "umifenovir",
       "virusShort": "FLUAV",
       "virusLong": "Influenza A virus",
-      "target": "multiple",
+      "target": "Human (multiple)",
       "mechanism": "",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1404,15 +1404,15 @@
       "drugNormalized": "umifenovir",
       "virusShort": "FLUBV",
       "virusLong": "Influenza B virus",
-      "target": "multiple",
+      "target": "Human (multiple)",
       "mechanism": "",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "positive",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": false,
         "japan": false,
         "china": false,
@@ -1434,7 +1434,7 @@
       "drugNormalized": "umifenovir",
       "virusShort": "SARS-CoV-2",
       "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "multiple",
+      "target": "Human (multiple)",
       "mechanism": "Inhibits membrane fusion",
       "preclinical": true,
       "phase2Initiated": true,
@@ -1462,12 +1462,12 @@
       "drugNormalized": "verapamil",
       "virusShort": "SARS-CoV-2",
       "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "calcium channels",
+      "target": "Human ion channel",
       "mechanism": "Voltage-dependent calcium channels inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "negative",
-      "phase3Initiated": false,
+      "phase3Initiated": true,
       "phase3Result": "na",
       "approvals": {
         "fda": false,
@@ -1490,9 +1490,9 @@
       "drug": "Remdesivir",
       "drugNormalized": "remdesivir",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
-      "target": "RdRp",
-      "mechanism": "",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Viral RNA pol",
+      "mechanism": "Viral RNA polymerase inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -1507,7 +1507,8 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "PMID: 32251767"
       },
       "inchiKey": "RWWYLEGWBNMMLJ-YSOARWBDSA-N",
       "smiles": "CCC(CC)COC(=O)C(C)NP(=O)(OCC1C(C(C(O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4"
@@ -1517,9 +1518,9 @@
       "drug": "Molnupiravir",
       "drugNormalized": "molnupiravir",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
-      "target": "RdRp",
-      "mechanism": "",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Viral RNA pol",
+      "mechanism": "Nucleoside analog",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -1534,7 +1535,8 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "NCT04405570"
       },
       "inchiKey": "HTNPEHXGEKVIHG-QCNRFFRDSA-N",
       "smiles": "CC(C)C(=O)OCC1C(C(C(O1)N2C=CC(=NC2=O)NO)O)O"
@@ -2491,7 +2493,7 @@
       "virusShort": "HBV",
       "virusLong": "Hepatitis B virus (HBV)",
       "target": "DNA polymerase",
-      "mechanism": "",
+      "mechanism": "Viral DNA chain termination",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -2506,7 +2508,8 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB1265"
       },
       "inchiKey": "IQFYYKKMVGJFEH-CSMHCCOUSA-N",
       "smiles": "CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O"
@@ -2653,7 +2656,7 @@
       "virusShort": "HCV",
       "virusLong": "Hepatitis C virus (HCV)",
       "target": "NS3/4A protease",
-      "mechanism": "",
+      "mechanism": "NS3/4a protease inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -2668,10 +2671,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB08873"
       },
       "inchiKey": "LHHCSNFAOIFYRV-DOVBMPENSA-N",
-      "smiles": "CC1(C2C1C(N(C2)C(=O)C(C(C)(C)C)NC(=O)NC(C)(C)C)C(=O)NC(CC3CCC3)C(=O)C(=O)N)C"
+      "smiles": "CC1(C2C1C(N(C2)C(=O)C(C(C)(C)C)NC(=O)NC(C)(C)C)C(=O)NC(CC3CCC3)C(=O)C(=O)N)C",
+      "drugbankId": "DB08873"
     },
     {
       "id": "Simeprevir-HCV",
@@ -2680,7 +2685,7 @@
       "virusShort": "HCV",
       "virusLong": "Hepatitis C virus (HCV)",
       "target": "NS3/4A protease",
-      "mechanism": "",
+      "mechanism": "Recovers host IFN signaling",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -2695,10 +2700,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB06290"
       },
       "inchiKey": "JTZZSQYMACOLNN-VDWJNHBNSA-N",
-      "smiles": "CC1=C(C=CC2=C1N=C(C=C2OC3CC4C(C3)C(=O)N(CCCCC=CC5CC5(NC4=O)C(=O)NS(=O)(=O)C6CC6)C)C7=NC(=CS7)C(C)C)OC"
+      "smiles": "CC1=C(C=CC2=C1N=C(C=C2OC3CC4C(C3)C(=O)N(CCCCC=CC5CC5(NC4=O)C(=O)NS(=O)(=O)C6CC6)C)C7=NC(=CS7)C(C)C)OC",
+      "drugbankId": "DB06290"
     },
     {
       "id": "Asunaprevir-HCV",
@@ -2923,7 +2930,7 @@
       "virusShort": "HCV",
       "virusLong": "Hepatitis C virus (HCV)",
       "target": "NS5A phosphoprotein",
-      "mechanism": "",
+      "mechanism": "Nucleoside inhibitor; Guanosine (ribonucleic) analog",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -2938,10 +2945,13 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "CID:37542; DB00811; NCT03069001"
       },
       "inchiKey": "IWUCXVSUMQZMFG-AFCXAGJDSA-N",
-      "smiles": "C1=NC(=NN1C2C(C(C(O2)CO)O)O)C(=O)N"
+      "smiles": "C1=NC(=NN1C2C(C(C(O2)CO)O)O)C(=O)N",
+      "drugbankId": "DB00811",
+      "pubchemCid": "37542"
     },
     {
       "id": "Daclatasvir-HCV",
@@ -2950,7 +2960,7 @@
       "virusShort": "HCV",
       "virusLong": "Hepatitis C virus (HCV)",
       "target": "NS5A phosphoprotein",
-      "mechanism": "",
+      "mechanism": "Blocks intracellular viral RNA synthesis",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -2965,10 +2975,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB09102"
       },
       "inchiKey": "FKRSSPOQAMALKA-CUPIEXAXSA-N",
-      "smiles": "CC(C)C(C(=O)N1CCCC1C2=NC=C(N2)C3=CC=C(C=C3)C4=CC=C(C=C4)C5=CN=C(N5)C6CCCN6C(=O)C(C(C)C)NC(=O)OC)NC(=O)OC"
+      "smiles": "CC(C)C(C(=O)N1CCCC1C2=NC=C(N2)C3=CC=C(C=C3)C4=CC=C(C=C4)C5=CN=C(N5)C6CCCN6C(=O)C(C(C)C)NC(=O)OC)NC(=O)OC",
+      "drugbankId": "DB09102"
     },
     {
       "id": "Elbasvir-HCV",
@@ -3571,14 +3583,14 @@
       "virusShort": "VZV",
       "virusLong": "Varicella zoster virus (VZV)",
       "target": "DNA polymerase",
-      "mechanism": "",
+      "mechanism": "Inhibits viral DNA synthesis",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
       "phase3Initiated": true,
       "phase3Result": "positive",
       "approvals": {
-        "fda": false,
+        "fda": true,
         "europe": true,
         "japan": false,
         "china": false,
@@ -3586,10 +3598,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "PMID: DB03312"
       },
       "inchiKey": "ODZBBRURCPAEIQ-PIXDULNESA-N",
-      "smiles": "C1C(C(OC1N2C=C(C(=O)NC2=O)C=CBr)CO)O"
+      "smiles": "C1C(C(OC1N2C=C(C(=O)NC2=O)C=CBr)CO)O",
+      "drugbankId": "DB03312"
     },
     {
       "id": "Vidarabine-VZV",
@@ -3598,7 +3612,7 @@
       "virusShort": "VZV",
       "virusLong": "Varicella zoster virus (VZV)",
       "target": "DNA polymerase",
-      "mechanism": "",
+      "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -3613,10 +3627,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB00194"
       },
       "inchiKey": "OIRDTQYFTABQOQ-UHTZMRCNSA-N",
-      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N"
+      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
+      "drugbankId": "DB00194"
     },
     {
       "id": "Famciclovir-VZV",
@@ -3625,7 +3641,7 @@
       "virusShort": "VZV",
       "virusLong": "Varicella zoster virus (VZV)",
       "target": "DNA polymerase",
-      "mechanism": "",
+      "mechanism": "Viral DNA Polymerase Inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -3640,10 +3656,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB00426"
       },
       "inchiKey": "GGXKWVWZWMLJEH-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OCC(CCN1C=NC2=CN=C(N=C21)N)COC(=O)C"
+      "smiles": "CC(=O)OCC(CCN1C=NC2=CN=C(N=C21)N)COC(=O)C",
+      "drugbankId": "DB00426"
     },
     {
       "id": "Valaciclovir-VZV",
@@ -3786,7 +3804,7 @@
       "drugNormalized": "podofilox",
       "virusShort": "HPV",
       "virusLong": "Human papillomavirus (HPV)",
-      "target": "Topoisomerase Ⅱ",
+      "target": "Human topoisomerase",
       "mechanism": "",
       "preclinical": true,
       "phase2Initiated": true,
@@ -3802,10 +3820,12 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "DrugBank ID: DB01179"
       },
       "inchiKey": "YJGVMLPVUAXIQN-XVVDYKMHSA-N",
-      "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O"
+      "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O",
+      "drugbankId": "DB01179"
     },
     {
       "id": "Brincidofovir-Smallpox",
@@ -4522,8 +4542,8 @@
       "drug": "Cepharanthine",
       "drugNormalized": "cepharanthine",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
-      "target": "",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Unknown",
       "mechanism": "",
       "preclinical": true,
       "phase2Initiated": true,
@@ -4539,7 +4559,8 @@
         "southKorea": false
       },
       "references": {
-        "phase2": "39890847"
+        "phase2": "39890847",
+        "drugvirusInfo": "PMID: 32149769"
       },
       "inchiKey": "YVPXVXANRNDGTA-WDYNHAJCSA-N",
       "smiles": "CN1CCC2=CC3=C(C4=C2C1CC5=CC=C(C=C5)OC6=C(C=CC(=C6)CC7C8=CC(=C(C=C8CCN7C)OC)O4)OC)OCO3"
@@ -5204,9 +5225,9 @@
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "HSV-1",
-      "virusLong": "HSV-1",
-      "target": "",
-      "mechanism": "",
+      "virusLong": "Human alphaherpesvirus 1",
+      "target": "Viral DNA pol",
+      "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -5220,9 +5241,12 @@
         "russia": false,
         "southKorea": false
       },
-      "references": {},
+      "references": {
+        "drugvirusInfo": "DrugBank ID: DB00194"
+      },
       "inchiKey": "OIRDTQYFTABQOQ-UHTZMRCNSA-N",
-      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N"
+      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
+      "drugbankId": "DB00194"
     },
     {
       "id": "Vidarabine-VACV",
@@ -5230,31 +5254,6 @@
       "drugNormalized": "vidarabine",
       "virusShort": "VACV",
       "virusLong": "VACV",
-      "target": "",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {},
-      "inchiKey": "OIRDTQYFTABQOQ-UHTZMRCNSA-N",
-      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N"
-    },
-    {
-      "id": "Vidarabine-VZV",
-      "drug": "Vidarabine",
-      "drugNormalized": "vidarabine",
-      "virusShort": "VZV",
-      "virusLong": "VZV",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5329,9 +5328,9 @@
       "drug": "Adefovir dipivoxil",
       "drugNormalized": "adefovir dipivoxil",
       "virusShort": "HBV",
-      "virusLong": "HBV",
-      "target": "",
-      "mechanism": "",
+      "virusLong": "Hepatitis B virus",
+      "target": "Viral RNA pol",
+      "mechanism": "Viral DNA chain termination",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -5345,9 +5344,12 @@
         "russia": false,
         "southKorea": false
       },
-      "references": {},
+      "references": {
+        "drugvirusInfo": "DrugBank ID: DB00718"
+      },
       "inchiKey": "WOZSCQDILHKSGG-UHFFFAOYSA-N",
-      "smiles": "CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C(N=CN=C21)N)OCOC(=O)C(C)(C)C"
+      "smiles": "CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C(N=CN=C21)N)OCOC(=O)C(C)(C)C",
+      "drugbankId": "DB00718"
     },
     {
       "id": "Adefovir_dipivoxil-HIV-1",
@@ -5641,33 +5643,6 @@
       "smiles": "CN(C)CCC(CSC1=CC=CC=C1)NC2=C(C=C(C=C2)S(=O)(=O)NC(=O)C3=CC=C(C=C3)N4CCN(CC4)CC5=CC=CC=C5C6=CC=C(C=C6)Cl)[N+](=O)[O-]"
     },
     {
-      "id": "Acetylsalicylic_acid-SARS-CoV-2",
-      "drug": "Acetylsalicylic acid",
-      "drugNormalized": "acetylsalicylic acid",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human COX",
-      "mechanism": "Cyclooxygenase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04808895"
-      },
-      "inchiKey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O"
-    },
-    {
       "id": "Acetylsalicylic_acid-HSV-1",
       "drug": "Acetylsalicylic acid",
       "drugNormalized": "acetylsalicylic acid",
@@ -5798,64 +5773,6 @@
       },
       "references": {
         "drugvirusInfo": "CID: 23709358; NCT01026454; DB00787"
-      },
-      "inchiKey": "MKUXAQIIEYXACX-UHFFFAOYSA-N",
-      "smiles": "C1=NC2=C(N1COCCO)NC(=NC2=O)N",
-      "pubchemCid": "23709358",
-      "drugbankId": "DB00787"
-    },
-    {
-      "id": "Acyclovir-HSV-2",
-      "drug": "Acyclovir",
-      "drugNormalized": "acyclovir",
-      "virusShort": "HSV-2",
-      "virusLong": "Human alphaherpesvirus 2",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID: 23709358; NCT00723229; DB00787"
-      },
-      "inchiKey": "MKUXAQIIEYXACX-UHFFFAOYSA-N",
-      "smiles": "C1=NC2=C(N1COCCO)NC(=NC2=O)N",
-      "pubchemCid": "23709358",
-      "drugbankId": "DB00787"
-    },
-    {
-      "id": "Acyclovir-VZV",
-      "drug": "Acyclovir",
-      "drugNormalized": "acyclovir",
-      "virusShort": "VZV",
-      "virusLong": "Human alphaherpesvirus 3",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID: 23709358; NCT00209352; DB00787"
       },
       "inchiKey": "MKUXAQIIEYXACX-UHFFFAOYSA-N",
       "smiles": "C1=NC2=C(N1COCCO)NC(=NC2=O)N",
@@ -6133,34 +6050,6 @@
       "smiles": "C1=NC(=C2C(=N1)N(C=N2)CCOCP(=O)(O)O)N"
     },
     {
-      "id": "Adefovir_dipivoxil-HBV",
-      "drug": "Adefovir dipivoxil",
-      "drugNormalized": "adefovir dipivoxil",
-      "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus",
-      "target": "Viral RNA pol",
-      "mechanism": "Viral DNA chain termination",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB00718"
-      },
-      "inchiKey": "WOZSCQDILHKSGG-UHFFFAOYSA-N",
-      "smiles": "CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C(N=CN=C21)N)OCOC(=O)C(C)(C)C",
-      "drugbankId": "DB00718"
-    },
-    {
       "id": "Adefovir_dipivoxil-CPXV",
       "drug": "Adefovir dipivoxil",
       "drugNormalized": "adefovir dipivoxil",
@@ -6213,33 +6102,6 @@
       },
       "inchiKey": "WOZSCQDILHKSGG-UHFFFAOYSA-N",
       "smiles": "CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C(N=CN=C21)N)OCOC(=O)C(C)(C)C"
-    },
-    {
-      "id": "Alisporivir-HCV",
-      "drug": "Alisporivir",
-      "drugNormalized": "alisporivir",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Human CYPs",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT02753699"
-      },
-      "inchiKey": "OLROWHGDTNFZBH-XEMWPYQTSA-N",
-      "smiles": "CCC1C(=O)N(C(C(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)C(C)C)CC)C)C"
     },
     {
       "id": "Alisporivir-SARS-CoV-2",
@@ -8485,33 +8347,6 @@
       "smiles": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC(=O)CCC(=O)O)C"
     },
     {
-      "id": "Artesunate-CMV",
-      "drug": "Artesunate",
-      "drugNormalized": "artesunate",
-      "virusShort": "CMV",
-      "virusLong": "Human betaherpesvirus 5",
-      "target": "Unknown",
-      "mechanism": "Unclear",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT00284687"
-      },
-      "inchiKey": "FIHJKUPKCHIPAT-AHIGJZGOSA-N",
-      "smiles": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC(=O)CCC(=O)O)C"
-    },
-    {
       "id": "Artesunate-HPV",
       "drug": "Artesunate",
       "drugNormalized": "artesunate",
@@ -9642,60 +9477,6 @@
       },
       "references": {
         "drugvirusInfo": "NCT01779570"
-      },
-      "inchiKey": "MQTOSJVFKKJCRP-BICOPXKESA-N",
-      "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O"
-    },
-    {
-      "id": "Azithromycin-RSV",
-      "drug": "Azithromycin",
-      "drugNormalized": "azithromycin",
-      "virusShort": "RSV",
-      "virusLong": "Human orthopneumovirus",
-      "target": "Human (multiple)",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT02911935; NCT02911935"
-      },
-      "inchiKey": "MQTOSJVFKKJCRP-BICOPXKESA-N",
-      "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O"
-    },
-    {
-      "id": "Azithromycin-SARS-CoV-2",
-      "drug": "Azithromycin",
-      "drugNormalized": "azithromycin",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human (multiple)",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 33676597"
       },
       "inchiKey": "MQTOSJVFKKJCRP-BICOPXKESA-N",
       "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O"
@@ -11404,34 +11185,6 @@
       "smiles": "CC1=C(N=C(N=C1N)C(CC(=O)N)NCC(C(=O)N)N)C(=O)NC(C(C2=CN=CN2)OC3C(C(C(C(O3)CO)O)O)OC4C(C(C(C(O4)CO)O)OC(=O)N)O)C(=O)NC(C)C(C(C)C(=O)NC(C(C)O)C(=O)NCCC5=NC(=CS5)C6=NC(=CS6)C(=O)NCCC[S+](C)C)O"
     },
     {
-      "id": "Boceprevir-HCV",
-      "drug": "Boceprevir",
-      "drugNormalized": "boceprevir",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Viral protease",
-      "mechanism": "NS3/4a protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB08873"
-      },
-      "inchiKey": "LHHCSNFAOIFYRV-DOVBMPENSA-N",
-      "smiles": "CC1(C2C1C(N(C2)C(=O)C(C(C)(C)C)NC(=O)NC(C)(C)C)C(=O)NC(CC3CCC3)C(=O)C(=O)N)C",
-      "drugbankId": "DB08873"
-    },
-    {
       "id": "Boceprevir-SARS-CoV-2",
       "drug": "Boceprevir",
       "drugNormalized": "boceprevir",
@@ -12404,173 +12157,11 @@
       "smiles": "CC1=C(C2=C(C=CC(=C2)F)N=C1C3=CC=C(C=C3)C4=CC=CC=C4F)C(=O)[O-].[Na+]"
     },
     {
-      "id": "Brincidofovir-HSV-1",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "HSV-1",
-      "virusLong": "Human alphaherpesvirus 1",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID:30120866; NCT01610765; NCT01143181"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brincidofovir-BKV",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "BKV",
-      "virusLong": "Human polyomavirus 1",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT01769170"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brincidofovir-VACV",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "VACV",
-      "virusLong": "Vaccinia virus",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID:30677427; NCT01143181"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brincidofovir-HAdV",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "HAdV",
-      "virusLong": "HAdV",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT02087306; NCT01143181; https://doi.org/10.1093/ofid/ofv133.939"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brincidofovir-CMV",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "CMV",
-      "virusLong": "Human betaherpesvirus 5",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT01769170; NCT01143181"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
       "id": "Brincidofovir-EBV",
       "drug": "Brincidofovir",
       "drugNormalized": "brincidofovir",
       "virusShort": "EBV",
       "virusLong": "Human gammaherpesvirus 4",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT01769170"
-      },
-      "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
-      "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brincidofovir-HHV-6",
-      "drug": "Brincidofovir",
-      "drugNormalized": "brincidofovir",
-      "virusShort": "HHV-6",
-      "virusLong": "Human betaherpesvirus 6",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA polymerase inhibitor",
       "preclinical": true,
@@ -12726,34 +12317,6 @@
       },
       "inchiKey": "CRDDLOITBKEPRN-UQIIZPHYSA-M",
       "smiles": "CCCCCCCCCCCCCCCCOCCCOP(=O)(COC(CN1C=CC(=NC1=O)N)CO)[O-].[Na+]"
-    },
-    {
-      "id": "Brivudine-VZV",
-      "drug": "Brivudine",
-      "drugNormalized": "brivudine",
-      "virusShort": "VZV",
-      "virusLong": "Human alphaherpesvirus 3",
-      "target": "Viral DNA pol",
-      "mechanism": "Inhibits viral DNA synthesis",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: DB03312"
-      },
-      "inchiKey": "ODZBBRURCPAEIQ-PIXDULNESA-N",
-      "smiles": "C1C(C(OC1N2C=C(C(=O)NC2=O)C=CBr)CO)O",
-      "drugbankId": "DB03312"
     },
     {
       "id": "Brivudine-BPV-2",
@@ -13620,33 +13183,6 @@
       "smiles": "CN1CCC2=CC3=C(C4=C2C1CC5=CC=C(C=C5)OC6=C(C=CC(=C6)CC7C8=CC(=C(C=C8CCN7C)OC)O4)OC)OCO3"
     },
     {
-      "id": "Cepharanthine-SARS-CoV-2",
-      "drug": "Cepharanthine",
-      "drugNormalized": "cepharanthine",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Unknown",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 32149769"
-      },
-      "inchiKey": "YVPXVXANRNDGTA-WDYNHAJCSA-N",
-      "smiles": "CN1CCC2=CC3=C(C4=C2C1CC5=CC=C(C=C5)OC6=C(C=CC(=C6)CC7C8=CC(=C(C=C8CCN7C)OC)O4)OC)OCO3"
-    },
-    {
       "id": "Chloroquine-HCV",
       "drug": "Chloroquine",
       "drugNormalized": "chloroquine",
@@ -14374,35 +13910,6 @@
       },
       "inchiKey": "ZPEIMTDSQAKGNT-UHFFFAOYSA-N",
       "smiles": "CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl"
-    },
-    {
-      "id": "Cidofovir-CMV",
-      "drug": "Cidofovir",
-      "drugNormalized": "cidofovir",
-      "virusShort": "CMV",
-      "virusLong": "Human betaherpesvirus 5",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:60613; NCT01866397; DB00369"
-      },
-      "inchiKey": "FPKARFMSZDBYQF-ILKKLZGPSA-N",
-      "smiles": "C1=CN(C(=O)N=C1N)CC(CO)OCP(=O)(O)O.O.O",
-      "pubchemCid": "60613",
-      "drugbankId": "DB00369"
     },
     {
       "id": "Cidofovir-BKV",
@@ -15485,33 +14992,6 @@
       "smiles": "C1N2C3C4N(C2=O)CN5C6C7N(C5=O)CN8C9C2N(C8=O)CN5C8C%10N(C5=O)CN5C%11C%12N(C5=O)CN5C%13C%14N(C5=O)CN5C%15C(N1C5=O)N1CN3C(=O)N4CN6C(=O)N7CN9C(=O)N2CN8C(=O)N%10CN%11C(=O)N%12CN%13C(=O)N%14CN%15C1=O"
     },
     {
-      "id": "Cyclosporine-HCV",
-      "drug": "Cyclosporine",
-      "drugNormalized": "cyclosporine",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Human CYPs",
-      "mechanism": "Calcineurin inhibitor; allows for inhibition of T cell activation",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID:16382464; NCT00821587"
-      },
-      "inchiKey": "PMATZTZNYRCHOR-CGLBZJNRSA-N",
-      "smiles": "CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C"
-    },
-    {
       "id": "Cyclosporine-HIV-1",
       "drug": "Cyclosporine",
       "drugNormalized": "cyclosporine",
@@ -15969,34 +15449,6 @@
       },
       "inchiKey": "BMSKZYQEVKGOFK-UHFFFAOYSA-N\nBMSKZYQEVKGOFK-ODNNXGBQSA-N",
       "smiles": "CC12CC3CC(C1)(CC(C3)(C2)NCC4=C(C=CC(=C4)Br)OC)C"
-    },
-    {
-      "id": "Daclatasvir-HCV",
-      "drug": "Daclatasvir",
-      "drugNormalized": "daclatasvir",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Viral NS5A",
-      "mechanism": "Blocks intracellular viral RNA synthesis",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB09102"
-      },
-      "inchiKey": "FKRSSPOQAMALKA-CUPIEXAXSA-N",
-      "smiles": "CC(C)C(C(=O)N1CCCC1C2=NC=C(N2)C3=CC=C(C=C3)C4=CC=C(C=C4)C5=CN=C(N5)C6CCCN6C(=O)C(C(C)C)NC(=O)OC)NC(=O)OC",
-      "drugbankId": "DB09102"
     },
     {
       "id": "Daclatasvir-SARS-CoV-2",
@@ -18759,33 +18211,6 @@
       "smiles": "CC1=CC(=CC(=C1OC2=NC(=NC(=C2Br)N)NC3=CC=C(C=C3)C#N)C)C#N"
     },
     {
-      "id": "Ezetimibe-HCV",
-      "drug": "Ezetimibe",
-      "drugNormalized": "ezetimibe",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Human cholesterol transporter",
-      "mechanism": "Intestinal cholesterol and related phytosterol absorption inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT02971033; NCT02768545"
-      },
-      "inchiKey": "OLNTVTPDXPETLC-XPWALMASSA-N",
-      "smiles": "C1=CC(=CC=C1C2C(C(=O)N2C3=CC=C(C=C3)F)CCC(C4=CC=C(C=C4)F)O)O"
-    },
-    {
       "id": "Ezetimibe-HDV",
       "drug": "Ezetimibe",
       "drugNormalized": "ezetimibe",
@@ -18981,34 +18406,6 @@
       "drugNormalized": "famciclovir",
       "virusShort": "HSV-2",
       "virusLong": "Human alphaherpesvirus 2",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA Polymerase Inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB00426"
-      },
-      "inchiKey": "GGXKWVWZWMLJEH-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OCC(CCN1C=NC2=CN=C(N=C21)N)COC(=O)C",
-      "drugbankId": "DB00426"
-    },
-    {
-      "id": "Famciclovir-VZV",
-      "drug": "Famciclovir",
-      "drugNormalized": "famciclovir",
-      "virusShort": "VZV",
-      "virusLong": "Human alphaherpesvirus 3",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA Polymerase Inhibitor",
       "preclinical": true,
@@ -21087,35 +20484,6 @@
       "smiles": "CC(CC1=CC=C(C=C1)OC)NCC(C2=CC(=C(C=C2)O)NC=O)O"
     },
     {
-      "id": "Foscarnet-CMV",
-      "drug": "Foscarnet",
-      "drugNormalized": "foscarnet",
-      "virusShort": "CMV",
-      "virusLong": "Human betaherpesvirus 5",
-      "target": "Viral DNA pol",
-      "mechanism": "Pyrophosphate analog DNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:3415; DB00529; NCT00947141"
-      },
-      "inchiKey": "ZJAOAACCNHFJAH-UHFFFAOYSA-N",
-      "smiles": "C(=O)(O)P(=O)(O)O",
-      "pubchemCid": "3415",
-      "drugbankId": "DB00529"
-    },
-    {
       "id": "Foscarnet-VZV",
       "drug": "Foscarnet",
       "drugNormalized": "foscarnet",
@@ -21740,62 +21108,6 @@
       },
       "inchiKey": "AMFDITJFBUXZQN-KUBHLMPHSA-N",
       "smiles": "C1=C(C2=C(N1)C(=NC=N2)N)C3C(C(C(N3)CO)O)O"
-    },
-    {
-      "id": "Ganciclovir-CMV",
-      "drug": "Ganciclovir",
-      "drugNormalized": "ganciclovir",
-      "virusShort": "CMV",
-      "virusLong": "Human betaherpesvirus 5",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral RNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:135398740; DB01004; NCT02943057"
-      },
-      "inchiKey": "IRSCQMHQWWYFCW-UHFFFAOYSA-N",
-      "smiles": "C1=NC2=C(N1COC(CO)CO)NC(=NC2=O)N",
-      "pubchemCid": "135398740",
-      "drugbankId": "DB01004"
-    },
-    {
-      "id": "Ganciclovir-HAdV-22",
-      "drug": "Ganciclovir",
-      "drugNormalized": "ganciclovir",
-      "virusShort": "HAdV-22",
-      "virusLong": "Human mastadenovirus D",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral RNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 30677427; NCT01533480"
-      },
-      "inchiKey": "IRSCQMHQWWYFCW-UHFFFAOYSA-N",
-      "smiles": "C1=NC2=C(N1COC(CO)CO)NC(=NC2=O)N"
     },
     {
       "id": "Ganciclovir-VZV",
@@ -24770,33 +24082,6 @@
       "smiles": "CC1=C(C=CN=C1CS(=O)C2=NC3=C(N2)C=C(C=C3)N4C=CC=C4)OC"
     },
     {
-      "id": "Imatinib-SARS-CoV-2",
-      "drug": "Imatinib",
-      "drugNormalized": "imatinib",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human PTK",
-      "mechanism": "Abl; Kit; PDGFRB inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04394416"
-      },
-      "inchiKey": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
-      "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5"
-    },
-    {
       "id": "Imatinib-BKV",
       "drug": "Imatinib",
       "drugNormalized": "imatinib",
@@ -26119,33 +25404,6 @@
       },
       "references": {
         "drugvirusInfo": "NCT04739410; PMID: 32251768"
-      },
-      "inchiKey": "SPBDXSGPUHCETR-CVSKBELMSA-N",
-      "smiles": "CCC(C)C1C(CCC2(O1)CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)C.CC1CCC2(CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)OC1C(C)C"
-    },
-    {
-      "id": "Ivermectin-DENV",
-      "drug": "Ivermectin",
-      "drugNormalized": "ivermectin",
-      "virusShort": "DENV",
-      "virusLong": "Dengue virus",
-      "target": "Human importin",
-      "mechanism": "Importin ?/?-mediated nuclear import inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT03432442; NCT02045069; PMID: 33462580"
       },
       "inchiKey": "SPBDXSGPUHCETR-CVSKBELMSA-N",
       "smiles": "CCC(C)C1C(CCC2(O1)CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)C.CC1CCC2(CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)OC1C(C)C"
@@ -27775,91 +27033,6 @@
       },
       "inchiKey": "GWFOVSGRNGAGDL-FSDSQADBSA-N",
       "smiles": "C1C(C(C1N2C=NC3=C2NC(=NC3=O)N)CO)CO"
-    },
-    {
-      "id": "Lopinavir-HIV-1",
-      "drug": "Lopinavir",
-      "drugNormalized": "lopinavir",
-      "virusShort": "HIV-1",
-      "virusLong": "Human immunodeficiency virus 1",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:92727; DB01601; NCT01772940"
-      },
-      "inchiKey": "KJHKTHWMRKYKJE-SUGCFTRWSA-N",
-      "smiles": "CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O",
-      "pubchemCid": "92727",
-      "drugbankId": "DB01601"
-    },
-    {
-      "id": "Lopinavir-HIV-2",
-      "drug": "Lopinavir",
-      "drugNormalized": "lopinavir",
-      "virusShort": "HIV-2",
-      "virusLong": "Human immunodeficiency virus 2",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:92727; DB01601; NCT02150993"
-      },
-      "inchiKey": "KJHKTHWMRKYKJE-SUGCFTRWSA-N",
-      "smiles": "CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O",
-      "pubchemCid": "92727",
-      "drugbankId": "DB01601"
-    },
-    {
-      "id": "Lopinavir-MERS-CoV",
-      "drug": "Lopinavir",
-      "drugNormalized": "lopinavir",
-      "virusShort": "MERS-CoV",
-      "virusLong": "Middle East respiratory syndrome-related coronavirus",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT02845843"
-      },
-      "inchiKey": "KJHKTHWMRKYKJE-SUGCFTRWSA-N",
-      "smiles": "CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O"
     },
     {
       "id": "Lopinavir-ZIKV",
@@ -29888,33 +29061,6 @@
       "smiles": "C1=CC(=C2C(=C1NCCNCCO)C(=O)C3=C(C=CC(=C3C2=O)O)O)NCCNCCO"
     },
     {
-      "id": "Molnupiravir-SARS-CoV-2",
-      "drug": "Molnupiravir",
-      "drugNormalized": "molnupiravir",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Viral RNA pol",
-      "mechanism": "Nucleoside analog",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04405570"
-      },
-      "inchiKey": "HTNPEHXGEKVIHG-QCNRFFRDSA-N",
-      "smiles": "CC(C)C(=O)OCC1C(C(C(O1)N2C=CC(=NC2=O)NO)O)O"
-    },
-    {
       "id": "Molnupiravir-FLUAV",
       "drug": "Molnupiravir",
       "drugNormalized": "molnupiravir",
@@ -30995,33 +30141,6 @@
       "smiles": "C1=CN(C(=O)N=C1NO)C2C(C(C(O2)CO)O)O"
     },
     {
-      "id": "Nafamostat-SARS-CoV-2",
-      "drug": "Nafamostat",
-      "drugNormalized": "nafamostat",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human protease",
-      "mechanism": "Synthetic serine protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04352400"
-      },
-      "inchiKey": "MQQNFDZXWVTQEH-UHFFFAOYSA-N",
-      "smiles": "C1=CC(=CC=C1C(=O)OC2=CC3=C(C=C2)C=C(C=C3)C(=N)N)N=C(N)N"
-    },
-    {
       "id": "Nafamostat-HCoV-229E",
       "drug": "Nafamostat",
       "drugNormalized": "nafamostat",
@@ -31508,35 +30627,6 @@
       "smiles": "CC1(CCC(=C(C1)CN2CCN(CC2)C3=CC=C(C=C3)C(=O)NS(=O)(=O)C4=CC(=C(C=C4)NC(CCN5CCOCC5)CSC6=CC=CC=C6)S(=O)(=O)C(F)(F)F)C7=CC=C(C=C7)Cl)C"
     },
     {
-      "id": "Nelfinavir-HIV-1",
-      "drug": "Nelfinavir",
-      "drugNormalized": "nelfinavir",
-      "virusShort": "HIV-1",
-      "virusLong": "Human immunodeficiency virus 1",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:64143; DB00220; NCT00246610"
-      },
-      "inchiKey": "QAGYKUNXZHXKMR-HKWSIXNMSA-N",
-      "smiles": "CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O",
-      "pubchemCid": "64143",
-      "drugbankId": "DB00220"
-    },
-    {
       "id": "Nelfinavir-KSHV",
       "drug": "Nelfinavir",
       "drugNormalized": "nelfinavir",
@@ -31913,33 +31003,6 @@
       },
       "inchiKey": "QAGYKUNXZHXKMR-HKWSIXNMSA-N",
       "smiles": "CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O"
-    },
-    {
-      "id": "Niclosamide-SARS-CoV-2",
-      "drug": "Niclosamide",
-      "drugNormalized": "niclosamide",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human (multiple)",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04603924"
-      },
-      "inchiKey": "RJMUSRYZPJIFPJ-UHFFFAOYSA-N",
-      "smiles": "C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O"
     },
     {
       "id": "Niclosamide-DENV-2",
@@ -32374,33 +31437,6 @@
       "smiles": "C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O"
     },
     {
-      "id": "Nitazoxanide-HCV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT01770483"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
       "id": "Nitazoxanide-SARS-CoV-2",
       "drug": "Nitazoxanide",
       "drugNormalized": "nitazoxanide",
@@ -32428,114 +31464,6 @@
       "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
     },
     {
-      "id": "Nitazoxanide-NoV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "NoV",
-      "virusLong": "Norwalk virus",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT03395405; NCT00302640; PMID:30104275"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
-      "id": "Nitazoxanide-HAdV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "HAdV",
-      "virusLong": "HAdV",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT00302640"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
-      "id": "Nitazoxanide-FLUAV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "FLUAV",
-      "virusLong": "Influenza A virus",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT03336619; NCT02612922"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
-      "id": "Nitazoxanide-RuV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "RuV",
-      "virusLong": "Rubivirus rubellae",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT00302640"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
       "id": "Nitazoxanide-EV",
       "drug": "Nitazoxanide",
       "drugNormalized": "nitazoxanide",
@@ -32558,33 +31486,6 @@
       },
       "references": {
         "drugvirusInfo": "NCT03605862"
-      },
-      "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
-      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
-    },
-    {
-      "id": "Nitazoxanide-RoV",
-      "drug": "Nitazoxanide",
-      "drugNormalized": "nitazoxanide",
-      "virusShort": "RoV",
-      "virusLong": "RoV",
-      "target": "Human pyruvate synthase",
-      "mechanism": "Pyruvate inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 28974385; NCT00302640"
       },
       "inchiKey": "YQNQNVDNTFHQSW-UHFFFAOYSA-N",
       "smiles": "CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-]"
@@ -34077,34 +32978,6 @@
       },
       "inchiKey": "IWVRVEIKCBFZNF-UHFFFAOYSA-N",
       "smiles": "CC1=CC2=C(C=C1)N3CCNC4C3=C2CCC4"
-    },
-    {
-      "id": "Podofilox-HPV",
-      "drug": "Podofilox",
-      "drugNormalized": "podofilox",
-      "virusShort": "HPV",
-      "virusLong": "HPV",
-      "target": "Human topoisomerase",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB01179"
-      },
-      "inchiKey": "YJGVMLPVUAXIQN-XVVDYKMHSA-N",
-      "smiles": "COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O",
-      "drugbankId": "DB01179"
     },
     {
       "id": "Podofilox-MCV",
@@ -35619,33 +34492,6 @@
       "smiles": "CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F"
     },
     {
-      "id": "Remdesivir-EBOV",
-      "drug": "Remdesivir",
-      "drugNormalized": "remdesivir",
-      "virusShort": "EBOV",
-      "virusLong": "Zaire ebolavirus",
-      "target": "Viral RNA pol",
-      "mechanism": "Viral RNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT03719586"
-      },
-      "inchiKey": "RWWYLEGWBNMMLJ-YSOARWBDSA-N",
-      "smiles": "CCC(CC)COC(=O)C(C)NP(=O)(OCC1C(C(C(O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4"
-    },
-    {
       "id": "Remdesivir-MERS-CoV",
       "drug": "Remdesivir",
       "drugNormalized": "remdesivir",
@@ -35965,33 +34811,6 @@
       },
       "references": {
         "drugvirusInfo": "PMID:28262699"
-      },
-      "inchiKey": "RWWYLEGWBNMMLJ-YSOARWBDSA-N",
-      "smiles": "CCC(CC)COC(=O)C(C)NP(=O)(OCC1C(C(C(O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4"
-    },
-    {
-      "id": "Remdesivir-SARS-CoV-2",
-      "drug": "Remdesivir",
-      "drugNormalized": "remdesivir",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Viral RNA pol",
-      "mechanism": "Viral RNA polymerase inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 32251767"
       },
       "inchiKey": "RWWYLEGWBNMMLJ-YSOARWBDSA-N",
       "smiles": "CCC(CC)COC(=O)C(C)NP(=O)(OCC1C(C(C(O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4"
@@ -36400,64 +35219,6 @@
       },
       "inchiKey": "LUKBXSAWLPMMSZ-OWOJBTEDSA-N",
       "smiles": "C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O"
-    },
-    {
-      "id": "Ribavirin-HCV",
-      "drug": "Ribavirin",
-      "drugNormalized": "ribavirin",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Viral RNA pol",
-      "mechanism": "Nucleoside inhibitor; Guanosine (ribonucleic) analog",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:37542; DB00811; NCT03069001"
-      },
-      "inchiKey": "IWUCXVSUMQZMFG-AFCXAGJDSA-N",
-      "smiles": "C1=NC(=NN1C2C(C(C(O2)CO)O)O)C(=O)N",
-      "pubchemCid": "37542",
-      "drugbankId": "DB00811"
-    },
-    {
-      "id": "Ribavirin-RSV",
-      "drug": "Ribavirin",
-      "drugNormalized": "ribavirin",
-      "virusShort": "RSV",
-      "virusLong": "Human orthopneumovirus",
-      "target": "Viral RNA pol",
-      "mechanism": "Nucleoside inhibitor; Guanosine (ribonucleic) analog",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:37542; DB00811; NCT00016081"
-      },
-      "inchiKey": "IWUCXVSUMQZMFG-AFCXAGJDSA-N",
-      "smiles": "C1=NC(=NN1C2C(C(C(O2)CO)O)O)C(=O)N",
-      "pubchemCid": "37542",
-      "drugbankId": "DB00811"
     },
     {
       "id": "Ribavirin-HEV",
@@ -37136,63 +35897,6 @@
       },
       "inchiKey": "UBCHPRBFMUDMNC-UHFFFAOYSA-N",
       "smiles": "CC(C12CC3CC(C1)CC(C3)C2)N"
-    },
-    {
-      "id": "Ritonavir-HIV-1",
-      "drug": "Ritonavir",
-      "drugNormalized": "ritonavir",
-      "virusShort": "HIV-1",
-      "virusLong": "Human immunodeficiency virus 1",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:392622; DB00503; NCT01702090"
-      },
-      "inchiKey": "NCDNCNXCDXHOMX-XGKFQTDJSA-N",
-      "smiles": "CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O",
-      "pubchemCid": "392622",
-      "drugbankId": "DB00503"
-    },
-    {
-      "id": "Ritonavir-HIV-2",
-      "drug": "Ritonavir",
-      "drugNormalized": "ritonavir",
-      "virusShort": "HIV-2",
-      "virusLong": "Human immunodeficiency virus 2",
-      "target": "Viral protease",
-      "mechanism": "HIV protease inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:392622; NCT02150993"
-      },
-      "inchiKey": "NCDNCNXCDXHOMX-XGKFQTDJSA-N",
-      "smiles": "CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O",
-      "pubchemCid": "392622"
     },
     {
       "id": "Ritonavir-MERS-CoV",
@@ -38519,34 +37223,6 @@
       "smiles": "COC1C(OC(CO1)C(CO)O)OC2=CC3=C(C(=C2)OC)C4(C(C(C(C4(O3)C5=CC=C(C=C5)OC)C6=CC=CC=C6)C(=O)OC)O)O"
     },
     {
-      "id": "Simeprevir-HCV",
-      "drug": "Simeprevir",
-      "drugNormalized": "simeprevir",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Viral protease",
-      "mechanism": "Recovers host IFN signaling",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB06290"
-      },
-      "inchiKey": "JTZZSQYMACOLNN-VDWJNHBNSA-N",
-      "smiles": "CC1=C(C=CC2=C1N=C(C=C2OC3CC4C(C3)C(=O)N(CCCCC=CC5CC5(NC4=O)C(=O)NS(=O)(=O)C6CC6)C)C7=NC(=CS7)C(C)C)OC",
-      "drugbankId": "DB06290"
-    },
-    {
       "id": "Simeprevir-SARS-CoV-2",
       "drug": "Simeprevir",
       "drugNormalized": "simeprevir",
@@ -39139,62 +37815,6 @@
       },
       "inchiKey": "QFJCIRLUMZQUOT-HPLJOQBZSA-N",
       "smiles": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC"
-    },
-    {
-      "id": "Sofosbuvir-HCV",
-      "drug": "Sofosbuvir",
-      "drugNormalized": "sofosbuvir",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Viral RNA pol",
-      "mechanism": "Nucleotide analog inhibitor of HCV NS5B RNA-dependent RNA polymerase",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:45375808; DB08934; NCT03069001"
-      },
-      "inchiKey": "TTZHDVOVKQGIBA-IQWMDFIBSA-N",
-      "smiles": "CC(C)OC(=O)C(C)NP(=O)(OCC1C(C(C(O1)N2C=CC(=O)NC2=O)(C)F)O)OC3=CC=CC=C3",
-      "pubchemCid": "45375808",
-      "drugbankId": "DB08934"
-    },
-    {
-      "id": "Sofosbuvir-SARS-CoV-2",
-      "drug": "Sofosbuvir",
-      "drugNormalized": "sofosbuvir",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Viral RNA pol",
-      "mechanism": "Nucleotide analog inhibitor of HCV NS5B RNA-dependent RNA polymerase",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04460443"
-      },
-      "inchiKey": "TTZHDVOVKQGIBA-IQWMDFIBSA-N",
-      "smiles": "CC(C)OC(=O)C(C)NP(=O)(OCC1C(C(C(O1)N2C=CC(=O)NC2=O)(C)F)O)OC3=CC=CC=C3"
     },
     {
       "id": "Sofosbuvir-ZIKV",
@@ -41034,33 +39654,6 @@
       "smiles": "CCCCCCCCCCNCCNC1(CC(OC(C1O)C)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C(=C(C=C9C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)O)CNCP(=O)(O)O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)C"
     },
     {
-      "id": "Telbivudine-HBV",
-      "drug": "Telbivudine",
-      "drugNormalized": "telbivudine",
-      "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus",
-      "target": "Viral RT",
-      "mechanism": "Viral DNA chain termination",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB1265"
-      },
-      "inchiKey": "IQFYYKKMVGJFEH-CSMHCCOUSA-N",
-      "smiles": "CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O"
-    },
-    {
       "id": "Telbivudine-HIV-1",
       "drug": "Telbivudine",
       "drugNormalized": "telbivudine",
@@ -41194,117 +39787,6 @@
       },
       "inchiKey": "ZBFDAUIVDSSISP-UHFFFAOYSA-N",
       "smiles": "CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=CC(=N3)OC"
-    },
-    {
-      "id": "Tenofovir-HIV-2",
-      "drug": "Tenofovir",
-      "drugNormalized": "tenofovir",
-      "virusShort": "HIV-2",
-      "virusLong": "Human immunodeficiency virus 2",
-      "target": "Viral RT",
-      "mechanism": "Nucleotide analog RT inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:464205; NCT02180438"
-      },
-      "inchiKey": "SGOIRFVFHAKUTI-ZCFIWIBFSA-N",
-      "smiles": "CC(CN1C=NC2=C(N=CN=C21)N)OCP(=O)(O)O",
-      "pubchemCid": "464205"
-    },
-    {
-      "id": "Tenofovir-HBV",
-      "drug": "Tenofovir",
-      "drugNormalized": "tenofovir",
-      "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus",
-      "target": "Viral RT",
-      "mechanism": "Nucleotide analog RT inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:464205; NCT02039362"
-      },
-      "inchiKey": "SGOIRFVFHAKUTI-ZCFIWIBFSA-N",
-      "smiles": "CC(CN1C=NC2=C(N=CN=C21)N)OCP(=O)(O)O",
-      "pubchemCid": "464205"
-    },
-    {
-      "id": "Tenofovir-HIV-1",
-      "drug": "Tenofovir",
-      "drugNormalized": "tenofovir",
-      "virusShort": "HIV-1",
-      "virusLong": "Human immunodeficiency virus 1",
-      "target": "Viral RT",
-      "mechanism": "Nucleotide analog RT inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:464205; NCT03998176"
-      },
-      "inchiKey": "SGOIRFVFHAKUTI-ZCFIWIBFSA-N",
-      "smiles": "CC(CN1C=NC2=C(N=CN=C21)N)OCP(=O)(O)O",
-      "pubchemCid": "464205"
-    },
-    {
-      "id": "Tenofovir-HSV-2",
-      "drug": "Tenofovir",
-      "drugNormalized": "tenofovir",
-      "virusShort": "HSV-2",
-      "virusLong": "Human alphaherpesvirus 2",
-      "target": "Viral DNA pol",
-      "mechanism": "Nucleotide analog RT inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT01386294"
-      },
-      "inchiKey": "SGOIRFVFHAKUTI-ZCFIWIBFSA-N",
-      "smiles": "CC(CN1C=NC2=C(N=CN=C21)N)OCP(=O)(O)O"
     },
     {
       "id": "Tenofovir-SARS-CoV-2",
@@ -41788,34 +40270,6 @@
       },
       "references": {
         "drugvirusInfo": "CID:16130571; NCT03448744"
-      },
-      "inchiKey": "NZVYCXVTEHPMHE-ZSUJOUNUSA-N",
-      "smiles": "CCC(C)C(C(=O)NC(C(C)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)N)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C",
-      "pubchemCid": "16130571"
-    },
-    {
-      "id": "Thymalfasin-HCV",
-      "drug": "Thymalfasin",
-      "drugNormalized": "thymalfasin",
-      "virusShort": "HCV",
-      "virusLong": "Hepacivirus C",
-      "target": "Unknown",
-      "mechanism": "Th1 cell stimulant; Th2 cell inhibitor; Th2 cell modulator",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:16130571; NCT01178996"
       },
       "inchiKey": "NZVYCXVTEHPMHE-ZSUJOUNUSA-N",
       "smiles": "CCC(C)C(C(=O)NC(C(C)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)N)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C",
@@ -42959,89 +41413,6 @@
       "smiles": "CC1=C(C2=C(CCC(O2)(C)COC3=CC=C(C=C3)CC4C(=O)NC(=O)S4)C(=C1O)C)C"
     },
     {
-      "id": "Umifenovir-FLUAV",
-      "drug": "Umifenovir",
-      "drugNormalized": "umifenovir",
-      "virusShort": "FLUAV",
-      "virusLong": "Influenza A virus",
-      "target": "Human (multiple)",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:131411; NCT01651663"
-      },
-      "inchiKey": "KCFYEAOKVJSACF-UHFFFAOYSA-N",
-      "smiles": "CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3",
-      "pubchemCid": "131411"
-    },
-    {
-      "id": "Umifenovir-FLUBV",
-      "drug": "Umifenovir",
-      "drugNormalized": "umifenovir",
-      "virusShort": "FLUBV",
-      "virusLong": "Influenza B virus",
-      "target": "Human (multiple)",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "CID:131411; NCT01651663"
-      },
-      "inchiKey": "KCFYEAOKVJSACF-UHFFFAOYSA-N",
-      "smiles": "CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3",
-      "pubchemCid": "131411"
-    },
-    {
-      "id": "Umifenovir-SARS-CoV-2",
-      "drug": "Umifenovir",
-      "drugNormalized": "umifenovir",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human (multiple)",
-      "mechanism": "Inhibits membrane fusion",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 33811756; PMID: 32283143"
-      },
-      "inchiKey": "KCFYEAOKVJSACF-UHFFFAOYSA-N",
-      "smiles": "CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3"
-    },
-    {
       "id": "Umifenovir-HSV-2",
       "drug": "Umifenovir",
       "drugNormalized": "umifenovir",
@@ -43833,33 +42204,6 @@
       "smiles": "CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=C2C=C(C=N3)C4=CC=C(C=C4)Cl)F"
     },
     {
-      "id": "Verapamil-SARS-CoV-2",
-      "drug": "Verapamil",
-      "drugNormalized": "verapamil",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human ion channel",
-      "mechanism": "Voltage-dependent calcium channels inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": true,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04351763"
-      },
-      "inchiKey": "SGTNSNPWRIOYBX-UHFFFAOYSA-N",
-      "smiles": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC"
-    },
-    {
       "id": "Verapamil-EBOV",
       "drug": "Verapamil",
       "drugNormalized": "verapamil",
@@ -44400,67 +42744,11 @@
       "smiles": "CCCCOC1=NC(=C2C(=N1)N(CC(=O)N2)CC3=CC=CC(=C3)CN4CCCC4)N"
     },
     {
-      "id": "Vidarabine-HSV-1",
-      "drug": "Vidarabine",
-      "drugNormalized": "vidarabine",
-      "virusShort": "HSV-1",
-      "virusLong": "Human alphaherpesvirus 1",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA synthesis inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB00194"
-      },
-      "inchiKey": "OIRDTQYFTABQOQ-UHTZMRCNSA-N",
-      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
-      "drugbankId": "DB00194"
-    },
-    {
       "id": "Vidarabine-HSV-2",
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "HSV-2",
       "virusLong": "Human alphaherpesvirus 2",
-      "target": "Viral DNA pol",
-      "mechanism": "Viral DNA synthesis inhibitor",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": true,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "DrugBank ID: DB00194"
-      },
-      "inchiKey": "OIRDTQYFTABQOQ-UHTZMRCNSA-N",
-      "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
-      "drugbankId": "DB00194"
-    },
-    {
-      "id": "Vidarabine-VZV",
-      "drug": "Vidarabine",
-      "drugNormalized": "vidarabine",
-      "virusShort": "VZV",
-      "virusLong": "Human alphaherpesvirus 3",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,

@@ -757,9 +757,10 @@ export function ViralFamiliesTable() {
               }
               const entry = APPROVAL_DB[row.virus] ?? { antiviral: false, vaccine: false };
               const counts = getCounts(row.virus);
+              const virusCodes = (VIRUS_CODE_MAP[row.virus] ?? []).join(',');
               const rowClasses = [
                 row.showFamily && i > 0 ? 'vf-family-first-row' : '',
-                row.pandemic === 'yes' ? 'vf-pandemic-yes-row' : '',
+                row.pandemic === 'yes' && !entry.antiviral && !entry.vaccine ? 'vf-pandemic-yes-row' : '',
               ].filter(Boolean).join(' ') || undefined;
               return (
                 <tr key={`${row.family}-${row.genus}-${row.virus}`} className={rowClasses}>
@@ -773,16 +774,16 @@ export function ViralFamiliesTable() {
                       {row.genus}
                     </td>
                   )}
-                  <td className={`vf-virus${row.pandemic === 'yes' && (!entry.antiviral || !entry.vaccine) ? ' vf-virus-unmet' : ''}`}>
+                  <td className={`vf-virus${row.pandemic === 'yes' && !entry.antiviral && !entry.vaccine ? ' vf-virus-unmet' : ''}`}>
                     <Link to={`/virus/${toVirusSlug(row.virus)}`} className="vf-virus-link">
                       {row.virus}
                     </Link>
                   </td>
                   <td className="vf-status"><StatusIcon value={entry.antiviral} /></td>
                   <td className="vf-status"><StatusIcon value={entry.vaccine} /></td>
-                  <td className="vf-count">{counts.p3 || ''}</td>
-                  <td className="vf-count">{counts.p2 || ''}</td>
-                  <td className="vf-count">{counts.pc || ''}</td>
+                  <td className="vf-count">{counts.p3 ? <Link to={`/?viruses=${virusCodes}&phases=phase3`}>{counts.p3}</Link> : ''}</td>
+                  <td className="vf-count">{counts.p2 ? <Link to={`/?viruses=${virusCodes}&phases=phase2`}>{counts.p2}</Link> : ''}</td>
+                  <td className="vf-count">{counts.pc ? <Link to={`/?viruses=${virusCodes}&phases=preclinical`}>{counts.pc}</Link> : ''}</td>
                   <td className="vf-status vf-pandemic">
                     <PandemicIcon value={row.pandemic} />
                   </td>

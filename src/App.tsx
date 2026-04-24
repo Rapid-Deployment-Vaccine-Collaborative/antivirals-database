@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { Routes, Route, NavLink, useNavigate } from 'react-router-dom';
+import { Routes, Route, NavLink, useNavigate, useSearchParams } from 'react-router-dom';
 import { Loader2, LayoutGrid, Table, BarChart3, Info } from 'lucide-react';
 import {
   SearchBar,
@@ -13,7 +13,7 @@ import {
 } from './components';
 import { useAntiviralsData } from './hooks/useAntiviralsData';
 import { useSearch } from './hooks/useSearch';
-import type { FilterState, AntiviralEntry, ViewMode } from './types';
+import type { FilterState, AntiviralEntry, ViewMode, ClinicalPhase } from './types';
 import { toDrugSlug } from './utils/drugSlug';
 import { DrugPage } from './views/DrugPage';
 import { VirusPage } from './views/VirusPage';
@@ -32,7 +32,7 @@ function Navbar() {
     <nav className="app-navbar">
       <div className="navbar-content">
         <div className="navbar-brand">
-          <span className="navbar-title">RaDVaC Antivirals</span>
+          <span className="navbar-title">RaDVaC Data Explorer</span>
         </div>
         <div className="navbar-links">
           <NavLink to="/" end className={({ isActive }) => `navbar-link${isActive ? ' active' : ''}`}>
@@ -59,7 +59,13 @@ function ViralFamiliesPage() {
 
 function Dashboard() {
   const { antivirals, metadata, loading, error } = useAntiviralsData();
-  const [filters, setFilters] = useState<FilterState>(initialFilters);
+  const [searchParams] = useSearchParams();
+  const [filters, setFilters] = useState<FilterState>(() => {
+    const viruses = searchParams.get('viruses')?.split(',').filter(Boolean) ?? [];
+    const phases = (searchParams.get('phases')?.split(',').filter(Boolean) ?? []) as ClinicalPhase[];
+    if (viruses.length === 0 && phases.length === 0) return initialFilters;
+    return { ...initialFilters, viruses, phases };
+  });
   const [viewMode, setViewMode] = useState<ViewMode>('researcher');
   const [showCharts, setShowCharts] = useState(false);
   const navigate = useNavigate();
@@ -102,10 +108,7 @@ function Dashboard() {
       <header className="app-header">
         <div className="header-content">
           <div className="header-title">
-            <h1>Antivirals Dashboard</h1>
-            <p className="header-subtitle">
-              Explore antiviral compounds and drug repurposing candidates
-            </p>
+            <h1>Approved and Investigational Antivirals</h1>
           </div>
           <div className="header-meta">
             {metadata && (

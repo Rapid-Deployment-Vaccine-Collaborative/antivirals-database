@@ -1315,11 +1315,11 @@ body {
   border-left: 1px solid var(--color-border);
 }
 
-.vf-flat-table tbody tr.vf-pandemic-yes-row td {
+.vf-flat-table tbody tr.vf-pandemic-yes-row td:not(.vf-family):not(.vf-genus) {
   background: rgba(220, 38, 38, 0.08);
 }
 
-.vf-flat-table tbody tr.vf-pandemic-yes-row:hover td {
+.vf-flat-table tbody tr.vf-pandemic-yes-row:hover td:not(.vf-family):not(.vf-genus) {
   background: rgba(220, 38, 38, 0.14);
 }
 
