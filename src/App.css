@@ -1,0 +1,1804 @@
+/* RaDVaC Antivirals Dashboard - Main Styles */
+
+/* === CSS Variables === */
+:root {
+  --color-primary: #3b82f6;
+  --color-primary-dark: #2563eb;
+  --color-secondary: #6366f1;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  --color-bg: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-bg-dark: #1e293b;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+  --color-border: #e2e8f0;
+
+  --phase-preclinical: #94a3b8;
+  --phase-phase2: #60a5fa;
+  --phase-phase3: #34d399;
+  --phase-approved: #22c55e;
+
+  --sidebar-width: 280px;
+  --header-height: 80px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+/* === Base Reset === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* === Layout === */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Navbar === */
+.app-navbar {
+  background: var(--color-bg-dark);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.navbar-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 48px;
+}
+
+.navbar-brand {
+  flex-shrink: 0;
+}
+
+.navbar-title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.01em;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navbar-link {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+}
+
+.navbar-link:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.navbar-link.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* === Viral Families Page === */
+.vfp-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  width: 100%;
+}
+
+.app-header {
+  background: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 48px;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.header-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.last-updated {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.app-sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+}
+
+.app-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.app-footer {
+  background: var(--color-bg-dark);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.app-footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Loading & Error States === */
+.loading-screen,
+.error-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === Stats Cards === */
+.pipeline-stats {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.5rem;
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.stat-approved .stat-value {
+  color: var(--color-success);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* === Search Bar === */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.search-input-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-muted);
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 2.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-clear {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-clear:hover {
+  color: var(--color-text);
+}
+
+.search-results-count {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* === Filter Panel === */
+.filter-panel {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.filter-header h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.clear-filters-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-danger);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-filters-btn:hover {
+  text-decoration: underline;
+}
+
+.filter-section {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+}
+
+.filter-section-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.filter-section-header:hover {
+  background: var(--color-bg);
+}
+
+.filter-count {
+  background: var(--color-primary);
+  color: white;
+  font-size: 0.625rem;
+  padding: 0.125rem 0.375rem;
+  border-radius: 9999px;
+  margin-left: 0.5rem;
+}
+
+.filter-options {
+  padding: 0.5rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-options-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.filter-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--color-primary);
+}
+
+.filter-more {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  padding-top: 0.5rem;
+}
+
+/* === Phase Badges === */
+.phase-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.phase-preclinical {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.phase-phase2 {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.phase-phase3 {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.phase-approved {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+/* === Approval Badges === */
+.approval-badges {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.approval-badge {
+  display: inline-flex;
+  padding: 0.125rem 0.5rem;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: var(--radius-sm);
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+.approval-badge-small {
+  font-size: 0.625rem;
+  padding: 0.125rem 0.375rem;
+}
+
+/* === Toolbar === */
+.content-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.view-toggle {
+  display: flex;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.view-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.view-btn:hover {
+  background: var(--color-bg-card);
+  color: var(--color-text);
+}
+
+.view-btn.active {
+  background: var(--color-primary);
+  color: white;
+}
+
+.export-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.export-button:hover {
+  background: var(--color-bg);
+  border-color: var(--color-primary);
+}
+
+/* === Drug Table === */
+.drug-table-container {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.drug-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.drug-table th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.drug-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.drug-table tbody tr:hover {
+  background: var(--color-bg);
+}
+
+.drug-table tbody tr.clickable {
+  cursor: pointer;
+}
+
+.header-sort {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.header-sort.sortable:hover {
+  color: var(--color-primary);
+}
+
+.sort-icon {
+  color: var(--color-text-muted);
+}
+
+.drug-name {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.virus-badge {
+  display: inline-flex;
+  padding: 0.125rem 0.5rem;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+}
+
+.inchi-key {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.external-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+}
+
+/* === Pagination === */
+.table-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--color-border);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pagination-info {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-size-select {
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+}
+
+.pagination-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.375rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-btn:not(:disabled):hover {
+  background: var(--color-bg);
+}
+
+.page-indicator {
+  font-size: 0.8125rem;
+  padding: 0 0.5rem;
+}
+
+/* === Drug Cards (Public View) === */
+.drug-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.drug-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.drug-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.drug-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.drug-card-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.drug-card-virus {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.virus-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.virus-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.drug-card-description {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.drug-card-approvals {
+  margin-bottom: 1rem;
+}
+
+.approvals-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-right: 0.5rem;
+}
+
+.drug-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8125rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-details-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.card-details-btn:hover {
+  background: var(--color-primary-dark);
+}
+
+.load-more-hint {
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+/* === Drug Detail Modal === */
+.drug-detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.drug-detail-modal {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+}
+
+.drug-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  background: var(--color-bg-card);
+  z-index: 10;
+}
+
+.drug-detail-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.drug-detail-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.close-btn:hover {
+  color: var(--color-text);
+}
+
+.drug-detail-content {
+  padding: 1.5rem;
+}
+
+.drug-detail-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.drug-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.drug-detail-section {
+  margin-bottom: 1.5rem;
+}
+
+.drug-detail-section h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.drug-detail-section h4 {
+  font-size: 0.875rem;
+  margin: 1rem 0 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.detail-row label {
+  width: 140px;
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.detail-row span {
+  font-size: 0.875rem;
+}
+
+/* === Clinical Timeline === */
+.clinical-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.timeline-stage {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-left: 2px solid var(--color-border);
+  position: relative;
+}
+
+.timeline-stage.completed {
+  border-left-color: var(--color-success);
+}
+
+.stage-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-border);
+  position: absolute;
+  left: -6px;
+}
+
+.timeline-stage.completed .stage-dot {
+  background: var(--color-success);
+}
+
+.stage-check {
+  color: var(--color-success);
+}
+
+.result-badge {
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--radius-sm);
+  margin-left: auto;
+}
+
+.result-positive {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.result-negative {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.result-uncertain {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* === Molecule Viewer === */
+.molecule-viewer {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.molecule-loading,
+.molecule-error {
+  color: var(--color-text-muted);
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.molecule-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.view-external-link,
+.view-structure-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.view-external-link:hover,
+.view-structure-link:hover {
+  text-decoration: underline;
+}
+
+.no-structure {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+/* === Chemical Identifiers === */
+.identifier-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.identifier-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.identifier-row label {
+  width: 80px;
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.identifier-value {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.identifier-value code {
+  font-family: monospace;
+  font-size: 0.75rem;
+  background: var(--color-bg);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  color: var(--color-primary);
+}
+
+/* === External Links Grid === */
+.external-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.external-link-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.external-link-card:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* === References === */
+.references-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reference-item {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.8125rem;
+}
+
+.reference-item label {
+  width: 80px;
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+}
+
+.reference-item a {
+  color: var(--color-primary);
+  word-break: break-all;
+}
+
+/* === Charts === */
+.charts-section {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pipeline-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.pipeline-chart h3 {
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.chart-tooltip {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  box-shadow: var(--shadow);
+}
+
+.tooltip-label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-value {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+/* === Viral Families Table === */
+.vf-wrapper {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.vf-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.vf-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.vf-source {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.125rem 0.5rem;
+}
+
+.vf-table-scroll {
+  overflow-x: auto;
+}
+
+.vf-flat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+}
+
+.vf-flat-table thead th {
+  text-align: left;
+  padding: 0.5rem 0.875rem;
+  background: var(--color-bg);
+  border-bottom: 2px solid var(--color-border);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.vf-col-family { width: 15%; }
+.vf-col-genus  { width: 20%; }
+.vf-col-virus  { width: 35%; }
+.vf-col-status { width: 15%; text-align: center; }
+
+.vf-flat-table tbody td {
+  padding: 0.3rem 0.875rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: middle;
+}
+
+.vf-flat-table tbody tr:hover td {
+  background: var(--color-bg);
+}
+
+.vf-section-row td {
+  padding: 0.375rem 0.875rem !important;
+  background: var(--color-bg) !important;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border-top: 2px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border) !important;
+}
+
+.vf-section-row:first-child td {
+  border-top: none;
+}
+
+.vf-family {
+  font-weight: 500;
+  color: var(--color-text);
+  border-right: 1px solid var(--color-border);
+  vertical-align: middle !important;
+}
+
+.vf-genus {
+  font-style: italic;
+  color: var(--color-text-muted);
+  border-right: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.vf-virus {
+  color: var(--color-text);
+}
+
+.vf-virus-link {
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--color-border);
+}
+
+.vf-virus-link:hover {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.vf-flat-table tbody td.vf-virus-unmet {
+  background: rgba(220, 38, 38, 0.22);
+}
+
+.vf-flat-table tbody tr:hover td.vf-virus-unmet {
+  background: rgba(220, 38, 38, 0.30);
+}
+
+.vf-flat-table tbody tr.vf-pandemic-yes-row td.vf-virus-unmet {
+  background: rgba(220, 38, 38, 0.30);
+}
+
+.vf-flat-table tbody tr.vf-pandemic-yes-row:hover td.vf-virus-unmet {
+  background: rgba(220, 38, 38, 0.38);
+}
+
+.vf-status {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vf-icon-yes {
+  color: var(--color-success);
+}
+
+.vf-icon-no {
+  color: var(--color-danger);
+  opacity: 0.7;
+}
+
+.vf-icon-na {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+}
+
+.vf-pandemic {
+  border-left: 1px solid var(--color-border);
+}
+
+.vf-flat-table tbody tr.vf-pandemic-yes-row td {
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.vf-flat-table tbody tr.vf-pandemic-yes-row:hover td {
+  background: rgba(220, 38, 38, 0.14);
+}
+
+/* === Virus page header / stub === */
+.virus-header-meta {
+  margin-top: 0.5rem;
+}
+
+.virus-pandemic-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.virus-pandemic-yes {
+  color: var(--color-danger);
+  background: rgba(220, 38, 38, 0.08);
+  border-color: rgba(220, 38, 38, 0.35);
+}
+
+.virus-pandemic-plain {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.virus-pandemic-na {
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border-color: var(--color-border);
+}
+
+.virus-taxonomy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem 1.5rem;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.5rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.virus-taxonomy > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.virus-taxonomy dt {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.virus-taxonomy dd {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.virus-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border: 1px dashed var(--color-border);
+  border-radius: 8px;
+}
+
+.virus-empty-state h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.virus-empty-state p {
+  margin: 0;
+  max-width: 480px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.vf-family-first-row td,
+.vf-family-first-row .vf-genus,
+.vf-family-first-row .vf-virus {
+  border-top: 1px solid var(--color-border);
+}
+
+/* === No Results === */
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.no-results h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+/* === Results Section === */
+.results-section {
+  min-height: 400px;
+}
+
+/* === Responsive === */
+@media (max-width: 1024px) {
+  .drug-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pipeline-charts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    flex-direction: column;
+  }
+
+  .app-sidebar {
+    width: 100%;
+  }
+
+  .content-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toolbar-actions {
+    justify-content: space-between;
+  }
+
+  .search-input-wrapper {
+    max-width: none;
+  }
+
+  .pipeline-stats {
+    padding: 1rem;
+  }
+
+  .stat-card {
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .drug-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .table-pagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* === Drug Page === */
+.drug-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.drug-page-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 60vh;
+  color: var(--color-text-muted);
+}
+
+.drug-page-header {
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.drug-page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.drug-page-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+/* Structures side by side */
+.drug-structures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.structure-panel {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.structure-panel h2 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.no-structure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+/* 3D viewer */
+.molecule-3d-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+}
+
+.molecule-3d-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  background: var(--color-bg);
+  z-index: 1;
+}
+
+.molecule-3d-error {
+  color: var(--color-danger);
+}
+
+.molecule-3d-error a {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Identifiers section */
+.drug-identifiers {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.drug-identifiers h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Virus section */
+.drug-virus-section {
+  margin-bottom: 3rem;
+}
+
+.drug-virus-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.virus-count-badge {
+  background: var(--color-primary);
+  color: white;
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Virus clinical cards grid */
+.virus-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.virus-clinical-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.virus-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.virus-card-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.virus-card-short {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.1rem;
+}
+
+.virus-card-target {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.2rem;
+}
+
+.virus-card-refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.ref-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.ref-link:hover {
+  text-decoration: underline;
+}
+
+.ref-label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* Drug name as link in table */
+.drug-name-link {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.drug-name-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .drug-structures {
+    grid-template-columns: 1fr;
+  }
+
+  .drug-page {
+    padding: 1rem;
+  }
+
+  .drug-page-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* === Phase progress bar in table === */
+.phase-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 100px;
+}
+
+.phase-progress-bar {
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.phase-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.2s ease;
+}
+
+.phase-fill-preclinical { background: var(--phase-preclinical); }
+.phase-fill-phase2      { background: var(--phase-phase2); }
+.phase-fill-phase3      { background: var(--phase-phase3); }
+.phase-fill-approved    { background: var(--phase-approved); }
+
+.stat-card-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.stat-card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* === Viral families table – wrapping headers + count columns === */
+.vf-col-wrap .vf-hdr-line {
+  display: block;
+  line-height: 1.1;
+}
+
+.vf-col-count {
+  text-align: center;
+  width: 56px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.vf-count {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}

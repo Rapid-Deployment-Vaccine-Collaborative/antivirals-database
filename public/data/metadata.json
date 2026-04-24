@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-01-02T22:09:21.568Z",
+  "antivirals": {
+    "totalDrugs": 321,
+    "totalDrugVirusPairs": 1659,
+    "fdaApproved": 190,
+    "phase3": 262,
+    "phase2": 109,
+    "preclinical": 1288
+  },
+  "approvedCompounds": {
+    "total": 3311,
+    "fdaApproved": 3186,
+    "withSmiles": 3311
+  },
+  "dataSources": [
+    "combined_antivirals_dataset_2025_11_20_with_smiles.csv",
+    "approved_small_molecule_compounds_FDA_and_drug_central_and_AntiviralDb.csv"
+  ]
+}
