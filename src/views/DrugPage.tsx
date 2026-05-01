@@ -269,21 +269,36 @@ function VirusClinicalCard({ entry }: { entry: AntiviralEntry }) {
       {/* References */}
       {(entry.references.phase2 || entry.references.phase3 || entry.references.approval || entry.references.drugvirusInfo) && (
         <div className="virus-card-refs">
-          {entry.references.phase2 && (
-            <a href={entry.references.phase2} target="_blank" rel="noopener noreferrer" className="ref-link">
-              Phase 2 ref <ExternalLink size={11} />
-            </a>
-          )}
-          {entry.references.phase3 && (
-            <a href={entry.references.phase3} target="_blank" rel="noopener noreferrer" className="ref-link">
-              Phase 3 ref <ExternalLink size={11} />
-            </a>
-          )}
-          {entry.references.approval && (
-            <a href={entry.references.approval} target="_blank" rel="noopener noreferrer" className="ref-link">
-              Approval ref <ExternalLink size={11} />
-            </a>
-          )}
+          {entry.references.phase2 &&
+            parseReferenceIdentifiers(entry.references.phase2).map(({ label, url }, i) =>
+              url ? (
+                <a key={`p2-${i}`} href={url} target="_blank" rel="noopener noreferrer" className="ref-link">
+                  Phase 2 ref ({label}) <ExternalLink size={11} />
+                </a>
+              ) : (
+                <span key={`p2-${i}`} className="ref-label">Phase 2 ref: {label}</span>
+              )
+            )}
+          {entry.references.phase3 &&
+            parseReferenceIdentifiers(entry.references.phase3).map(({ label, url }, i) =>
+              url ? (
+                <a key={`p3-${i}`} href={url} target="_blank" rel="noopener noreferrer" className="ref-link">
+                  Phase 3 ref ({label}) <ExternalLink size={11} />
+                </a>
+              ) : (
+                <span key={`p3-${i}`} className="ref-label">Phase 3 ref: {label}</span>
+              )
+            )}
+          {entry.references.approval &&
+            parseReferenceIdentifiers(entry.references.approval).map(({ label, url }, i) =>
+              url ? (
+                <a key={`ap-${i}`} href={url} target="_blank" rel="noopener noreferrer" className="ref-link">
+                  Approval ref ({label}) <ExternalLink size={11} />
+                </a>
+              ) : (
+                <span key={`ap-${i}`} className="ref-label">Approval ref: {label}</span>
+              )
+            )}
           {entry.references.drugvirusInfo &&
             parseReferenceIdentifiers(entry.references.drugvirusInfo).map(({ label, url }, i) =>
               url ? (

@@ -3,6 +3,18 @@ import { useState } from 'react';
 import type { AntiviralEntry } from '../types';
 import { getClinicalPhase, getPhaseLabel, getApprovalRegions } from '../types';
 import { MoleculeViewer } from './MoleculeViewer';
+import { parseReferenceIdentifiers } from '../utils/parseReferenceIdentifiers';
+
+function renderRefTokens(raw: string) {
+  return parseReferenceIdentifiers(raw).map(({ label, url }, i) => {
+    const sep = i > 0 ? '; ' : '';
+    return url ? (
+      <span key={i}>{sep}<a href={url} target="_blank" rel="noopener noreferrer">{label}</a></span>
+    ) : (
+      <span key={i}>{sep}{label}</span>
+    );
+  });
+}
 
 interface DrugDetailProps {
   drug: AntiviralEntry;
@@ -201,23 +213,19 @@ export function DrugDetail({ drug, onClose }: DrugDetailProps) {
                 {drug.references.phase2 && (
                   <div className="reference-item">
                     <label>Phase 2:</label>
-                    <a href={drug.references.phase2} target="_blank" rel="noopener noreferrer">
-                      {drug.references.phase2}
-                    </a>
+                    <span>{renderRefTokens(drug.references.phase2)}</span>
                   </div>
                 )}
                 {drug.references.phase3 && (
                   <div className="reference-item">
                     <label>Phase 3:</label>
-                    <a href={drug.references.phase3} target="_blank" rel="noopener noreferrer">
-                      {drug.references.phase3}
-                    </a>
+                    <span>{renderRefTokens(drug.references.phase3)}</span>
                   </div>
                 )}
                 {drug.references.approval && (
                   <div className="reference-item">
                     <label>Approval:</label>
-                    <span>{drug.references.approval}</span>
+                    <span>{renderRefTokens(drug.references.approval)}</span>
                   </div>
                 )}
               </div>

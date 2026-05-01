@@ -3992,13 +3992,13 @@
       "smiles": "C1COCCN1C2=C(N=CC(=C2)C(F)(F)F)C3=NN=C(O3)NC4C(=O)NC5=CC=CC=C5C(=N4)C6=CC=CC=C6"
     },
     {
-      "id": "chloroquine-SARS-CoV-2",
-      "drug": "chloroquine",
+      "id": "Chloroquine-SARS-CoV-2",
+      "drug": "Chloroquine",
       "drugNormalized": "chloroquine",
       "virusShort": "SARS-CoV-2",
       "virusLong": "SARS-CoV-2",
-      "target": "",
-      "mechanism": "",
+      "target": "Human (multiple)",
+      "mechanism": "Antimalaria agent; chemo/radio sensitizer",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
@@ -4014,7 +4014,8 @@
       },
       "references": {
         "phase2": "33682640",
-        "phase3": "33907251"
+        "phase3": "33907251",
+        "drugvirusInfo": "NCT04331600; PMID: 32020029"
       },
       "inchiKey": "WHTVZRBIWZFKQO-UHFFFAOYSA-N",
       "smiles": "CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl"
@@ -4101,8 +4102,8 @@
       "smiles": "CC1=C(SC(=N1)N(C)C(=O)CC2=CC=C(C=C2)C3=CC=CC=N3)S(=O)(=O)N"
     },
     {
-      "id": "Nafamostat_Mesylate-SARS-CoV-2",
-      "drug": "Nafamostat Mesylate",
+      "id": "Nafamostat_mesylate-SARS-CoV-2",
+      "drug": "Nafamostat mesylate",
       "drugNormalized": "nafamostat mesylate",
       "virusShort": "SARS-CoV-2",
       "virusLong": "SARS-CoV-2",
@@ -4209,8 +4210,8 @@
       "smiles": "C#CC1(C(CC(O1)N2C=NC3=C(N=C(N=C32)F)N)O)CO"
     },
     {
-      "id": "ziresovir-RSV",
-      "drug": "ziresovir",
+      "id": "Ziresovir-RSV",
+      "drug": "Ziresovir",
       "drugNormalized": "ziresovir",
       "virusShort": "RSV",
       "virusLong": "RSV",
@@ -4237,13 +4238,13 @@
       "smiles": "CC1=CC2=C(C=C1)N=C(N=C2NCC3(COC3)N)N4CCS(=O)(=O)C5=CC=CC=C5C4"
     },
     {
-      "id": "ivermectin-SARS-CoV-2",
-      "drug": "ivermectin",
+      "id": "Ivermectin-SARS-CoV-2",
+      "drug": "Ivermectin",
       "drugNormalized": "ivermectin",
       "virusShort": "SARS-CoV-2",
       "virusLong": "SARS-CoV-2",
-      "target": "",
-      "mechanism": "",
+      "target": "Human importin",
+      "mechanism": "Importin-mediated nuclear import inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
@@ -4258,7 +4259,8 @@
         "southKorea": false
       },
       "references": {
-        "phase2": "36803992"
+        "phase2": "36803992",
+        "drugvirusInfo": "NCT04739410; PMID: 32251768"
       },
       "inchiKey": "AZSNMRSAGSSBNP-XPNPUAGNSA-N",
       "smiles": "CCC(C)C1C(CCC2(O1)CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)C"
@@ -4812,61 +4814,6 @@
       "smiles": "CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
     },
     {
-      "id": "besifovir_dipivoxil_maleate-HBV",
-      "drug": "besifovir dipivoxil maleate",
-      "drugNormalized": "besifovir dipivoxil maleate",
-      "virusShort": "HBV",
-      "virusLong": "HBV",
-      "target": "",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "phase2": "23979965",
-        "phase3": "30448598"
-      },
-      "inchiKey": "DXUDWHZKSUFXKH-BTJKTKAUSA-N",
-      "smiles": "CC(C)(C)C(=O)OCOP(=O)(COC1(CC1)CN2C=NC3=CN=C(N=C32)N)OCOC(=O)C(C)(C)C.C(=CC(=O)O)C(=O)O"
-    },
-    {
-      "id": "nafamostat_mesylate-SARS-CoV-2",
-      "drug": "nafamostat mesylate",
-      "drugNormalized": "nafamostat mesylate",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
-      "target": "",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "negative",
-      "phase3Initiated": false,
-      "phase3Result": "na",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "phase2": "35152152"
-      },
-      "inchiKey": "SRXKIZXIRHMPFW-UHFFFAOYSA-N",
-      "smiles": "CS(=O)(=O)[O-].CS(=O)(=O)[O-].C1=CC(=CC=C1C(=O)OC2=CC3=C(C=C2)C=C(C=C3)C(=N)[NH3+])N=C([NH3+])N"
-    },
-    {
       "id": "Presatovir-RSV",
       "drug": "Presatovir",
       "drugNormalized": "presatovir",
@@ -4976,61 +4923,6 @@
       "smiles": "CC(C)C(C(=O)N1CCCC1C2=NC=C(N2)C3=CC4=C(C=C3)N5C(OC6=C(C5=C4)C(=CC(=C6)C7=CN=C(N7)C8CCCN8C(=O)C(C(C)C)NC(=O)OC)F)C9=CN=C(S9)C1CC1)NC(=O)OC"
     },
     {
-      "id": "presatovir-RSV",
-      "drug": "presatovir",
-      "drugNormalized": "presatovir",
-      "virusShort": "RSV",
-      "virusLong": "RSV",
-      "target": "",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "negative",
-      "phase3Initiated": false,
-      "phase3Result": "na",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "phase2": "31793991"
-      },
-      "inchiKey": "GOFXWTVKPWJNGD-UWJYYQICSA-N",
-      "smiles": "CC1=CN2C(=CC(=N2)C3CCCCN3C(=O)C4=C(C=CC(=C4)Cl)NS(=O)(=O)C)N=C1N5CCC(C5)N"
-    },
-    {
-      "id": "Ziresovir-RSV",
-      "drug": "Ziresovir",
-      "drugNormalized": "ziresovir",
-      "virusShort": "RSV",
-      "virusLong": "RSV",
-      "target": "",
-      "mechanism": "",
-      "preclinical": true,
-      "phase2Initiated": true,
-      "phase2Result": "positive",
-      "phase3Initiated": true,
-      "phase3Result": "positive",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "phase2": "39321361",
-        "phase3": "39321361"
-      },
-      "inchiKey": "GAAICKUTDBZCMT-UHFFFAOYSA-N",
-      "smiles": "CC1=CC2=C(C=C1)N=C(N=C2NCC3(COC3)N)N4CCS(=O)(=O)C5=CC=CC=C5C4"
-    },
-    {
       "id": "PC786-RSV",
       "drug": "PC786",
       "drugNormalized": "pc786",
@@ -5085,13 +4977,13 @@
       "smiles": "COC1=C(C=CC(=C1)C2C(OC3=C(O2)C=C(C=C3)C4C(C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O"
     },
     {
-      "id": "fluoxetine-SARS-CoV-2",
-      "drug": "fluoxetine",
+      "id": "Fluoxetine-SARS-CoV-2",
+      "drug": "Fluoxetine",
       "drugNormalized": "fluoxetine",
       "virusShort": "SARS-CoV-2",
       "virusLong": "SARS-CoV-2",
-      "target": "",
-      "mechanism": "",
+      "target": "Viral ATPase/helicase",
+      "mechanism": "Selective serotonin reuptake inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
@@ -5106,19 +4998,20 @@
         "southKorea": false
       },
       "references": {
-        "phase2": "39896880"
+        "phase2": "39896880",
+        "drugvirusInfo": "PMID: 33723270; NCT04377308"
       },
       "inchiKey": "RTHCYVBBDHJXIQ-UHFFFAOYSA-N",
       "smiles": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F"
     },
     {
-      "id": "hydroxychloroquine-SARS-CoV-2",
-      "drug": "hydroxychloroquine",
+      "id": "Hydroxychloroquine-SARS-CoV-2",
+      "drug": "Hydroxychloroquine",
       "drugNormalized": "hydroxychloroquine",
       "virusShort": "SARS-CoV-2",
       "virusLong": "SARS-CoV-2",
-      "target": "",
-      "mechanism": "",
+      "target": "Human (multiple)",
+      "mechanism": "Unclear",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "negative",
@@ -5134,7 +5027,8 @@
       },
       "references": {
         "phase2": "34872511",
-        "phase3": "33907251"
+        "phase3": "33907251",
+        "drugvirusInfo": "NCT04359316; PMID: 32194981"
       },
       "inchiKey": "XXSMGPRMXLTPCZ-UHFFFAOYSA-N",
       "smiles": "CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO"
@@ -13210,33 +13104,6 @@
       "smiles": "CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl"
     },
     {
-      "id": "Chloroquine-SARS-CoV-2",
-      "drug": "Chloroquine",
-      "drugNormalized": "chloroquine",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human (multiple)",
-      "mechanism": "Antimalaria agent; chemo/radio sensitizer",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04331600; PMID: 32020029"
-      },
-      "inchiKey": "QKICWELGRMTQCR-UHFFFAOYSA-N",
-      "smiles": "CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl"
-    },
-    {
       "id": "Chloroquine-HIV-1",
       "drug": "Chloroquine",
       "drugNormalized": "chloroquine",
@@ -19836,33 +19703,6 @@
       "smiles": "C1=NC2=C(N=C(N=C2N1C3C(C(C(O3)CO)O)O)F)N"
     },
     {
-      "id": "Fluoxetine-SARS-CoV-2",
-      "drug": "Fluoxetine",
-      "drugNormalized": "fluoxetine",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Viral ATPase/helicase",
-      "mechanism": "Selective serotonin reuptake inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "PMID: 33723270; NCT04377308"
-      },
-      "inchiKey": "RTHCYVBBDHJXIQ-UHFFFAOYSA-N",
-      "smiles": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F"
-    },
-    {
       "id": "Fluoxetine-DENV-2",
       "drug": "Fluoxetine",
       "drugNormalized": "fluoxetine",
@@ -23513,33 +23353,6 @@
       "smiles": "CC(C)(CCCC(CC(=O)OC)(C(=O)OC1C2C3=CC4=C(C=C3CCN5C2(CCC5)C=C1OC)OCO4)O)O"
     },
     {
-      "id": "Hydroxychloroquine-SARS-CoV-2",
-      "drug": "Hydroxychloroquine",
-      "drugNormalized": "hydroxychloroquine",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human (multiple)",
-      "mechanism": "Unclear",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04359316; PMID: 32194981"
-      },
-      "inchiKey": "XXSMGPRMXLTPCZ-UHFFFAOYSA-N",
-      "smiles": "CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO"
-    },
-    {
       "id": "Hydroxychloroquine-HIV-1",
       "drug": "Hydroxychloroquine",
       "drugNormalized": "hydroxychloroquine",
@@ -25380,33 +25193,6 @@
       },
       "inchiKey": "VHVPQPYKVGDNFY-ZPGVKDDISA-N",
       "smiles": "CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl"
-    },
-    {
-      "id": "Ivermectin-SARS-CoV-2",
-      "drug": "Ivermectin",
-      "drugNormalized": "ivermectin",
-      "virusShort": "SARS-CoV-2",
-      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
-      "target": "Human importin",
-      "mechanism": "Importin-mediated nuclear import inhibitor",
-      "preclinical": true,
-      "phase2Initiated": false,
-      "phase2Result": "",
-      "phase3Initiated": false,
-      "phase3Result": "",
-      "approvals": {
-        "fda": false,
-        "europe": false,
-        "japan": false,
-        "china": false,
-        "russia": false,
-        "southKorea": false
-      },
-      "references": {
-        "drugvirusInfo": "NCT04739410; PMID: 32251768"
-      },
-      "inchiKey": "SPBDXSGPUHCETR-CVSKBELMSA-N",
-      "smiles": "CCC(C)C1C(CCC2(O1)CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)C.CC1CCC2(CC3CC(O2)CC=C(C(C(C=CC=C4COC5C4(C(C=C(C5O)C)C(=O)O3)O)C)OC6CC(C(C(O6)C)OC7CC(C(C(O7)C)O)OC)OC)C)OC1C(C)C"
     },
     {
       "id": "Ivermectin-CHIKV",

@@ -68,6 +68,14 @@ function tokenToRefLink(token: string): RefLink {
     };
   }
 
+  // Bare DOI (e.g. "10.3390/biomedicines12102206")
+  if (/^10\.\d{4,9}\/\S+$/.test(token)) {
+    return {
+      label: 'DOI',
+      url: `https://doi.org/${token}`,
+    };
+  }
+
   // Unrecognized — plain text, no link
   return { label: token, url: null };
 }
