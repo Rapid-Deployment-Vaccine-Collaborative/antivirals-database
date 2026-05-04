@@ -17,7 +17,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -70,8 +70,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -101,8 +101,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -538,7 +538,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -570,7 +570,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -686,7 +686,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -716,7 +716,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -746,7 +746,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -993,7 +993,7 @@
       "drug": "Nitazoxanide",
       "drugNormalized": "nitazoxanide",
       "virusShort": "EBOV",
-      "virusLong": "ebolavirus",
+      "virusLong": "Zaire ebolavirus",
       "target": "Human pyruvate synthase",
       "mechanism": "Pyruvate inhibitor",
       "preclinical": true,
@@ -1059,8 +1059,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1087,8 +1087,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1120,7 +1120,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1151,7 +1151,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1179,7 +1179,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -1210,7 +1210,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -1239,8 +1239,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1269,8 +1269,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1298,8 +1298,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1327,8 +1327,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1385,8 +1385,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1415,8 +1415,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1445,8 +1445,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1465,7 +1465,7 @@
       "target": "Human ion channel",
       "mechanism": "Voltage-dependent calcium channels inhibitor",
       "preclinical": true,
-      "phase2Initiated": false,
+      "phase2Initiated": true,
       "phase2Result": "negative",
       "phase3Initiated": true,
       "phase3Result": "na",
@@ -1502,8 +1502,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1530,8 +1530,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1546,7 +1546,7 @@
       "drug": "VV116",
       "drugNormalized": "vv116",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "RdRp",
       "mechanism": "",
       "preclinical": true,
@@ -1573,7 +1573,7 @@
       "drug": "Ensitrelvir",
       "drugNormalized": "ensitrelvir",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Main protease",
       "mechanism": "",
       "preclinical": true,
@@ -1600,7 +1600,7 @@
       "drug": "Baricitinib",
       "drugNormalized": "baricitinib",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Janus kinase",
       "mechanism": "",
       "preclinical": true,
@@ -1640,7 +1640,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1721,7 +1721,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1747,8 +1747,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1775,7 +1775,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1802,7 +1802,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1828,7 +1828,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -1856,7 +1856,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -1910,7 +1910,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -2045,7 +2045,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -2126,7 +2126,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -2207,7 +2207,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -2464,7 +2464,7 @@
       "drug": "Entecavir",
       "drugNormalized": "entecavir",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -2476,7 +2476,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -2491,7 +2491,7 @@
       "drug": "Telbivudine",
       "drugNormalized": "telbivudine",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "Viral DNA chain termination",
       "preclinical": true,
@@ -2519,7 +2519,7 @@
       "drug": "Adefovir",
       "drugNormalized": "adefovir",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -2546,7 +2546,7 @@
       "drug": "Tenofovir disoproxil fumarate",
       "drugNormalized": "tenofovir disoproxil fumarate",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -2558,7 +2558,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -2573,7 +2573,7 @@
       "drug": "Tenofovir alafenamide",
       "drugNormalized": "tenofovir alafenamide",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -2585,7 +2585,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -2600,7 +2600,7 @@
       "drug": "Clevudine",
       "drugNormalized": "clevudine",
       "virusShort": "HBV",
-      "virusLong": "Hepatitis B virus (HBV)",
+      "virusLong": "Hepatitis B virus",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -2627,7 +2627,7 @@
       "drug": "Telaprevir",
       "drugNormalized": "telaprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2654,7 +2654,7 @@
       "drug": "Boceprevir",
       "drugNormalized": "boceprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "NS3/4a protease inhibitor",
       "preclinical": true,
@@ -2683,7 +2683,7 @@
       "drug": "Simeprevir",
       "drugNormalized": "simeprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "Recovers host IFN signaling",
       "preclinical": true,
@@ -2712,7 +2712,7 @@
       "drug": "Asunaprevir",
       "drugNormalized": "asunaprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2739,7 +2739,7 @@
       "drug": "Vaniprevir",
       "drugNormalized": "vaniprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2766,7 +2766,7 @@
       "drug": "Paritaprevir",
       "drugNormalized": "paritaprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2793,7 +2793,7 @@
       "drug": "Grazoprevir",
       "drugNormalized": "grazoprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2820,7 +2820,7 @@
       "drug": "Voxilaprevir",
       "drugNormalized": "voxilaprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2847,7 +2847,7 @@
       "drug": "Glecaprevir",
       "drugNormalized": "glecaprevir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS3/4A protease",
       "mechanism": "",
       "preclinical": true,
@@ -2874,7 +2874,7 @@
       "drug": "Ledipasvir",
       "drugNormalized": "ledipasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "",
       "preclinical": true,
@@ -2901,7 +2901,7 @@
       "drug": "Ombitasvir",
       "drugNormalized": "ombitasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "",
       "preclinical": true,
@@ -2928,7 +2928,7 @@
       "drug": "Ribavirin",
       "drugNormalized": "ribavirin",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "Nucleoside inhibitor; Guanosine (ribonucleic) analog",
       "preclinical": true,
@@ -2940,8 +2940,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -2958,7 +2958,7 @@
       "drug": "Daclatasvir",
       "drugNormalized": "daclatasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "Blocks intracellular viral RNA synthesis",
       "preclinical": true,
@@ -2987,7 +2987,7 @@
       "drug": "Elbasvir",
       "drugNormalized": "elbasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "",
       "preclinical": true,
@@ -3014,7 +3014,7 @@
       "drug": "Pibrentasvir",
       "drugNormalized": "pibrentasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "",
       "preclinical": true,
@@ -3041,7 +3041,7 @@
       "drug": "Velpatasvir",
       "drugNormalized": "velpatasvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5A phosphoprotein",
       "mechanism": "",
       "preclinical": true,
@@ -3068,7 +3068,7 @@
       "drug": "Dasabuvir",
       "drugNormalized": "dasabuvir",
       "virusShort": "HCV",
-      "virusLong": "Hepatitis C virus (HCV)",
+      "virusLong": "Hepacivirus C",
       "target": "NS5B polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -3135,7 +3135,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3188,8 +3188,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3242,7 +3242,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -3280,13 +3280,13 @@
       "smiles": "CCCCCCCC(=O)OCC(C(C1C(C(C=C(O1)C(=O)O)N=C(N)N)NC(=O)C)OC)O"
     },
     {
-      "id": "Peramivir-Influenza",
+      "id": "Peramivir-FLUAV",
       "drug": "Peramivir",
       "drugNormalized": "peramivir",
-      "virusShort": "Influenza",
-      "virusLong": "Influenza virus",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
       "target": "Neuraminidase",
-      "mechanism": "",
+      "mechanism": "Neuraminidase inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "positive",
@@ -3301,7 +3301,8 @@
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "CID:135565990; DB11979"
       },
       "inchiKey": "XRQDFNLINLXZLB-CKIKVBCHSA-N",
       "smiles": "CCC(CC)C(C1C(CC(C1O)C(=O)O)N=C(N)N)NC(=O)C"
@@ -3324,7 +3325,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3486,7 +3487,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3581,7 +3582,7 @@
       "drug": "Brivudine",
       "drugNormalized": "brivudine",
       "virusShort": "VZV",
-      "virusLong": "Varicella zoster virus (VZV)",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "DNA polymerase",
       "mechanism": "Inhibits viral DNA synthesis",
       "preclinical": true,
@@ -3599,7 +3600,7 @@
       },
       "references": {
         "approval": "AntiviralDb",
-        "drugvirusInfo": "PMID: DB03312"
+        "drugvirusInfo": "DB03312"
       },
       "inchiKey": "ODZBBRURCPAEIQ-PIXDULNESA-N",
       "smiles": "C1C(C(OC1N2C=C(C(=O)NC2=O)C=CBr)CO)O",
@@ -3610,7 +3611,7 @@
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "VZV",
-      "virusLong": "Varicella zoster virus (VZV)",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "DNA polymerase",
       "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,
@@ -3639,7 +3640,7 @@
       "drug": "Famciclovir",
       "drugNormalized": "famciclovir",
       "virusShort": "VZV",
-      "virusLong": "Varicella zoster virus (VZV)",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "DNA polymerase",
       "mechanism": "Viral DNA Polymerase Inhibitor",
       "preclinical": true,
@@ -3652,7 +3653,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3668,7 +3669,7 @@
       "drug": "Valaciclovir",
       "drugNormalized": "valaciclovir",
       "virusShort": "VZV",
-      "virusLong": "Varicella zoster virus (VZV)",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "DNA polymerase",
       "mechanism": "",
       "preclinical": true,
@@ -3707,8 +3708,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -3788,12 +3789,12 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
       "references": {
-        "approval": "AntiviralDb"
+        "approval": "AntiviralDb; NMPA 2025 JXHS2500035; NMPA 2025 JXHS2500036"
       },
       "inchiKey": "FWYSMLBETOMXAG-QHCPKHFHSA-N",
       "smiles": "COC1=C(C=C(C=C1)C(F)(F)F)N2C(C3=C(C(=CC=C3)F)N=C2N4CCN(CC4)C5=CC(=CC=C5)OC)CC(=O)O"
@@ -3803,7 +3804,7 @@
       "drug": "Podofilox",
       "drugNormalized": "podofilox",
       "virusShort": "HPV",
-      "virusLong": "Human papillomavirus (HPV)",
+      "virusLong": "Human papillomavirus",
       "target": "Human topoisomerase",
       "mechanism": "",
       "preclinical": true,
@@ -3886,7 +3887,7 @@
       "drug": "Mebendazole",
       "drugNormalized": "mebendazole",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -3913,7 +3914,7 @@
       "drug": "RDEA806",
       "drugNormalized": "rdea806",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -3941,7 +3942,7 @@
       "drug": "Atorvastatin",
       "drugNormalized": "atorvastatin",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -3969,7 +3970,7 @@
       "drug": "EDP-938",
       "drugNormalized": "edp-938",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -3996,7 +3997,7 @@
       "drug": "Chloroquine",
       "drugNormalized": "chloroquine",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Human (multiple)",
       "mechanism": "Antimalaria agent; chemo/radio sensitizer",
       "preclinical": true,
@@ -4025,7 +4026,7 @@
       "drug": "Lumicitabine",
       "drugNormalized": "lumicitabine",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4052,7 +4053,7 @@
       "drug": "uprifosbuvir",
       "drugNormalized": "uprifosbuvir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4079,7 +4080,7 @@
       "drug": "pritelivir",
       "drugNormalized": "pritelivir",
       "virusShort": "HSV-2",
-      "virusLong": "HSV-2",
+      "virusLong": "Human alphaherpesvirus 2",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4106,7 +4107,7 @@
       "drug": "Nafamostat mesylate",
       "drugNormalized": "nafamostat mesylate",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4133,7 +4134,7 @@
       "drug": "faldaprevir",
       "drugNormalized": "faldaprevir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4160,7 +4161,7 @@
       "drug": "VX-222",
       "drugNormalized": "vx-222",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4187,7 +4188,7 @@
       "drug": "islatravir",
       "drugNormalized": "islatravir",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4214,7 +4215,7 @@
       "drug": "Ziresovir",
       "drugNormalized": "ziresovir",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4242,7 +4243,7 @@
       "drug": "Ivermectin",
       "drugNormalized": "ivermectin",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Human importin",
       "mechanism": "Importin-mediated nuclear import inhibitor",
       "preclinical": true,
@@ -4270,7 +4271,7 @@
       "drug": "sorivudine",
       "drugNormalized": "sorivudine",
       "virusShort": "VZV",
-      "virusLong": "VZV",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4294,10 +4295,10 @@
     },
     {
       "id": "bemnifosbuvir-SARS-CoV-2",
-      "drug": "bemnifosbuvir",
+      "drug": "Bemnifosbuvir",
       "drugNormalized": "bemnifosbuvir",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4324,7 +4325,7 @@
       "drug": "Besifovir dipivoxil maleate",
       "drugNormalized": "besifovir dipivoxil maleate",
       "virusShort": "HBV",
-      "virusLong": "HBV",
+      "virusLong": "Hepatitis B virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4352,7 +4353,7 @@
       "drug": "GSK2838232",
       "drugNormalized": "gsk2838232",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4379,7 +4380,7 @@
       "drug": "cobicistat",
       "drugNormalized": "cobicistat",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4407,7 +4408,7 @@
       "drug": "danoprevir",
       "drugNormalized": "danoprevir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4435,7 +4436,7 @@
       "drug": "selgantolimod",
       "drugNormalized": "selgantolimod",
       "virusShort": "HBV",
-      "virusLong": "HBV",
+      "virusLong": "Hepatitis B virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4462,7 +4463,7 @@
       "drug": "GLS4",
       "drugNormalized": "gls4",
       "virusShort": "HBV",
-      "virusLong": "HBV",
+      "virusLong": "Hepatitis B virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4489,7 +4490,7 @@
       "drug": "deleobuvir",
       "drugNormalized": "deleobuvir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4517,7 +4518,7 @@
       "drug": "vorinostat",
       "drugNormalized": "vorinostat",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4572,7 +4573,7 @@
       "drug": "odalasvir",
       "drugNormalized": "odalasvir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4626,7 +4627,7 @@
       "drug": "pimodivir",
       "drugNormalized": "pimodivir",
       "virusShort": "FLUAV",
-      "virusLong": "FLUAV",
+      "virusLong": "Influenza A virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4654,7 +4655,7 @@
       "drug": "colchicine",
       "drugNormalized": "colchicine",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4682,7 +4683,7 @@
       "drug": "romidepsin",
       "drugNormalized": "romidepsin",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4709,7 +4710,7 @@
       "drug": "losartan",
       "drugNormalized": "losartan",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4736,7 +4737,7 @@
       "drug": "plitidepsin",
       "drugNormalized": "plitidepsin",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4764,7 +4765,7 @@
       "drug": "AMD11070",
       "drugNormalized": "amd11070",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4788,10 +4789,10 @@
     },
     {
       "id": "methotrexate-HIV-1",
-      "drug": "methotrexate",
+      "drug": "Methotrexate",
       "drugNormalized": "methotrexate",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4818,7 +4819,7 @@
       "drug": "Presatovir",
       "drugNormalized": "presatovir",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4845,7 +4846,7 @@
       "drug": "amdoxovir",
       "drugNormalized": "amdoxovir",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4872,7 +4873,7 @@
       "drug": "GSK3640254",
       "drugNormalized": "gsk3640254",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4899,7 +4900,7 @@
       "drug": "ruzasvir",
       "drugNormalized": "ruzasvir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4927,7 +4928,7 @@
       "drug": "PC786",
       "drugNormalized": "pc786",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4954,7 +4955,7 @@
       "drug": "silymarin",
       "drugNormalized": "silymarin",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -4981,7 +4982,7 @@
       "drug": "Fluoxetine",
       "drugNormalized": "fluoxetine",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Viral ATPase/helicase",
       "mechanism": "Selective serotonin reuptake inhibitor",
       "preclinical": true,
@@ -5009,7 +5010,7 @@
       "drug": "Hydroxychloroquine",
       "drugNormalized": "hydroxychloroquine",
       "virusShort": "SARS-CoV-2",
-      "virusLong": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Human (multiple)",
       "mechanism": "Unclear",
       "preclinical": true,
@@ -5038,7 +5039,7 @@
       "drug": "adafosbuvir",
       "drugNormalized": "adafosbuvir",
       "virusShort": "HCV",
-      "virusLong": "HCV",
+      "virusLong": "Hepacivirus C",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5065,7 +5066,7 @@
       "drug": "GSK3532795",
       "drugNormalized": "gsk3532795",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5092,7 +5093,7 @@
       "drug": "RV521",
       "drugNormalized": "rv521",
       "virusShort": "RSV",
-      "virusLong": "RSV",
+      "virusLong": "Human orthopneumovirus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5147,7 +5148,7 @@
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "VACV",
-      "virusLong": "VACV",
+      "virusLong": "Vaccinia virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5172,7 +5173,7 @@
       "drug": "Tenofovir disoproxil",
       "drugNormalized": "tenofovir disoproxil",
       "virusShort": "HBV",
-      "virusLong": "HBV",
+      "virusLong": "Hepatitis B virus",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5184,7 +5185,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -5197,7 +5198,7 @@
       "drug": "Tenofovir disoproxil",
       "drugNormalized": "tenofovir disoproxil",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5209,7 +5210,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -5250,7 +5251,7 @@
       "drug": "Adefovir dipivoxil",
       "drugNormalized": "adefovir dipivoxil",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5275,7 +5276,7 @@
       "drug": "Tromantadine",
       "drugNormalized": "tromantadine",
       "virusShort": "VZV",
-      "virusLong": "VZV",
+      "virusLong": "Human alphaherpesvirus 3",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5300,7 +5301,7 @@
       "drug": "Bulevirtide",
       "drugNormalized": "bulevirtide",
       "virusShort": "HDV",
-      "virusLong": "HDV",
+      "virusLong": "Hepatitis delta virus",
       "target": "sodium taurocholate cotransporting polypeptide receptor",
       "mechanism": "",
       "preclinical": true,
@@ -5327,7 +5328,7 @@
       "drug": "Lenacapavir",
       "drugNormalized": "lenacapavir",
       "virusShort": "HIV-1",
-      "virusLong": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
       "target": "",
       "mechanism": "",
       "preclinical": true,
@@ -5349,8 +5350,8 @@
     },
     {
       "id": "4_-Fluorouridine-SARS-CoV-2",
-      "drug": "4�-Fluorouridine",
-      "drugNormalized": "4�-fluorouridine",
+      "drug": "4'-Fluorouridine",
+      "drugNormalized": "4'-fluorouridine",
       "virusShort": "SARS-CoV-2",
       "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Viral RNA pol",
@@ -5376,8 +5377,8 @@
     },
     {
       "id": "4_-Fluorouridine-RSV",
-      "drug": "4�-Fluorouridine",
-      "drugNormalized": "4�-fluorouridine",
+      "drug": "4'-Fluorouridine",
+      "drugNormalized": "4'-fluorouridine",
       "virusShort": "RSV",
       "virusLong": "Human orthopneumovirus",
       "target": "Viral RNA pol",
@@ -5661,8 +5662,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -5690,8 +5691,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -5717,8 +5718,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -5744,8 +5745,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -5771,8 +5772,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -5798,8 +5799,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -6518,7 +6519,7 @@
       "virusShort": "CHIKV",
       "virusLong": "Chikungunya virus",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6572,7 +6573,7 @@
       "virusShort": "CVB-3",
       "virusLong": "Enterovirus B",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6599,7 +6600,7 @@
       "virusShort": "PV-1",
       "virusLong": "Enterovirus C",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6626,7 +6627,7 @@
       "virusShort": "HRV-A89",
       "virusLong": "Rhinovirus A",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6653,7 +6654,7 @@
       "virusShort": "HRV-A2",
       "virusLong": "Rhinovirus A",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6680,7 +6681,7 @@
       "virusShort": "HSV-1",
       "virusLong": "Human alphaherpesvirus 1",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6707,7 +6708,7 @@
       "virusShort": "JUNV",
       "virusLong": "Argentinian mammarenavirus",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6734,7 +6735,7 @@
       "virusShort": "KSHV",
       "virusLong": "Human gammaherpesvirus 8",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6761,7 +6762,7 @@
       "virusShort": "LASV",
       "virusLong": "Lassa mammarenavirus",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6788,7 +6789,7 @@
       "virusShort": "MARV",
       "virusLong": "Marburg marburgvirus",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6815,7 +6816,7 @@
       "virusShort": "MeV",
       "virusLong": "Measles morbillivirus",
       "target": "Human ion channel",
-      "mechanism": "Epithelial sodium channel�inhibitor",
+      "mechanism": "Epithelial sodium channel inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6869,7 +6870,7 @@
       "virusShort": "EBOV",
       "virusLong": "Zaire ebolavirus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": true,
       "phase2Result": "",
@@ -6896,7 +6897,7 @@
       "virusShort": "DENV-2",
       "virusLong": "Dengue virus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6923,7 +6924,7 @@
       "virusShort": "HCV",
       "virusLong": "Hepacivirus C",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6950,7 +6951,7 @@
       "virusShort": "HSV-1",
       "virusLong": "Human alphaherpesvirus 1",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -6977,7 +6978,7 @@
       "virusShort": "RRV",
       "virusLong": "Ross River virus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -7004,7 +7005,7 @@
       "virusShort": "SARS-CoV",
       "virusLong": "Severe acute respiratory syndrome-related coronavirus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -7031,7 +7032,7 @@
       "virusShort": "SINV",
       "virusLong": "Sindbis virus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -7058,7 +7059,7 @@
       "virusShort": "VSV",
       "virusLong": "Indiana vesiculovirus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -7085,7 +7086,7 @@
       "virusShort": "YFV",
       "virusLong": "Yellow fever virus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -7112,7 +7113,7 @@
       "virusShort": "LUJV",
       "virusLong": "Lujo mammarenavirus",
       "target": "Human (multiple)",
-      "mechanism": "Non-competitive �-adrenergic inhibitor",
+      "mechanism": "Non-competitive β-adrenergic inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -8245,7 +8246,7 @@
       "drug": "Artesunate",
       "drugNormalized": "artesunate",
       "virusShort": "HPV",
-      "virusLong": "HPV",
+      "virusLong": "Human papillomavirus",
       "target": "Unknown",
       "mechanism": "Unclear",
       "preclinical": true,
@@ -8420,7 +8421,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -8448,7 +8449,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -10435,7 +10436,7 @@
       "drug": "Betulinic Acid",
       "drugNormalized": "betulinic acid",
       "virusShort": "HPV",
-      "virusLong": "HPV",
+      "virusLong": "Human papillomavirus",
       "target": "Unknown",
       "mechanism": "Unknown",
       "preclinical": true,
@@ -13864,7 +13865,7 @@
       "drug": "Cidofovir",
       "drugNormalized": "cidofovir",
       "virusShort": "HPV",
-      "virusLong": "HPV",
+      "virusLong": "Human papillomavirus",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA polymerase inhibitor",
       "preclinical": true,
@@ -15287,7 +15288,7 @@
       "references": {
         "drugvirusInfo": "PMID: 31413797"
       },
-      "inchiKey": "BMSKZYQEVKGOFK-UHFFFAOYSA-N\nBMSKZYQEVKGOFK-ODNNXGBQSA-N",
+      "inchiKey": "BMSKZYQEVKGOFK-UHFFFAOYSA-N",
       "smiles": "CC12CC3CC(C1)(CC(C3)(C2)NCC4=C(C=CC(=C4)Br)OC)C"
     },
     {
@@ -15314,7 +15315,7 @@
       "references": {
         "drugvirusInfo": "PMID: 31413797"
       },
-      "inchiKey": "BMSKZYQEVKGOFK-UHFFFAOYSA-N\nBMSKZYQEVKGOFK-ODNNXGBQSA-N",
+      "inchiKey": "BMSKZYQEVKGOFK-UHFFFAOYSA-N",
       "smiles": "CC12CC3CC(C1)(CC(C3)(C2)NCC4=C(C=CC(=C4)Br)OC)C"
     },
     {
@@ -15605,7 +15606,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -15633,7 +15634,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -16526,7 +16527,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -16554,7 +16555,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -16570,7 +16571,7 @@
       "virusShort": "CHIKV",
       "virusLong": "Chikungunya virus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16597,7 +16598,7 @@
       "virusShort": "CMV",
       "virusLong": "Human betaherpesvirus 5",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16624,7 +16625,7 @@
       "virusShort": "CVB-3",
       "virusLong": "Enterovirus B",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16651,7 +16652,7 @@
       "virusShort": "HSV-1",
       "virusLong": "Human alphaherpesvirus 1",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16678,7 +16679,7 @@
       "virusShort": "JEV",
       "virusLong": "Japanese encephalitis virus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16705,7 +16706,7 @@
       "virusShort": "MERS-CoV",
       "virusLong": "Middle East respiratory syndrome-related coronavirus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16732,7 +16733,7 @@
       "virusShort": "SINV",
       "virusLong": "Sindbis virus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16759,7 +16760,7 @@
       "virusShort": "VSV",
       "virusLong": "Indiana vesiculovirus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -16786,7 +16787,7 @@
       "virusShort": "ZIKV",
       "virusLong": "Zika virus",
       "target": "Human ODC",
-      "mechanism": "Enzyme-activated; irreversible�inhibitor�of ornithine decarboxylase",
+      "mechanism": "Enzyme-activated; irreversible inhibitor of ornithine decarboxylase",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -17499,7 +17500,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -17527,7 +17528,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -17535,6 +17536,34 @@
       },
       "inchiKey": "XQSPYNMVSIKCOC-NTSWFWBYSA-N",
       "smiles": "C1C(OC(S1)CO)N2C=C(C(=NC2=O)N)F"
+    },
+    {
+      "id": "Encofosbuvir-HCV",
+      "drug": "Encofosbuvir",
+      "drugNormalized": "encofosbuvir",
+      "virusShort": "HCV",
+      "virusLong": "Hepacivirus C",
+      "target": "NS5B",
+      "mechanism": "NS5B polymerase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2300069"
+      },
+      "inchiKey": "GAHCKEWMXZYJAZ-VBWBMHESSA-N",
+      "smiles": "CC(C)OC(=O)C(C)NP(=O)(OCC1C(C(C(O1)N2C=CC(=O)N(C2=O)COC(=O)C(CCSC)NC(=O)OC)(C)F)O)OC3=CC=CC=C3",
+      "pubchemCid": 141522644
     },
     {
       "id": "Enoxacin-ZIKV",
@@ -18072,7 +18101,7 @@
         "southKorea": false
       },
       "references": {
-        "drugvirusInfo": "PMID: Etravirine"
+        "drugvirusInfo": "PMID: 31653397"
       },
       "inchiKey": "PYGWGZALEOIKDF-UHFFFAOYSA-N",
       "smiles": "CC1=CC(=CC(=C1OC2=NC(=NC(=C2Br)N)NC3=CC=C(C=C3)C#N)C)C#N"
@@ -18257,7 +18286,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18285,7 +18314,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18313,7 +18342,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18340,7 +18369,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18366,8 +18395,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18393,8 +18422,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18421,8 +18450,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18449,8 +18478,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18477,8 +18506,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18504,8 +18533,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18531,8 +18560,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18558,8 +18587,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18585,8 +18614,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18612,8 +18641,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18639,8 +18668,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18666,8 +18695,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18693,8 +18722,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18720,8 +18749,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18747,8 +18776,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18774,8 +18803,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18801,8 +18830,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18828,8 +18857,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -18855,8 +18884,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -20966,7 +20995,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -20993,7 +21022,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21020,7 +21049,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21047,7 +21076,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21074,7 +21103,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21101,7 +21130,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21128,7 +21157,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -21155,7 +21184,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -24183,7 +24212,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -24210,7 +24239,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -24237,7 +24266,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -24264,7 +24293,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -24291,7 +24320,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -24305,7 +24334,7 @@
       "drug": "Inosine (Inosine pranobex)",
       "drugNormalized": "inosine (inosine pranobex)",
       "virusShort": "HPV",
-      "virusLong": "HPV",
+      "virusLong": "Human papillomavirus",
       "target": "Viral DNA pol",
       "mechanism": "Stimulates cell-mediated immune response",
       "preclinical": true,
@@ -24823,7 +24852,7 @@
       "virusShort": "HBV",
       "virusLong": "Hepatitis B virus",
       "target": "Human ATR",
-      "mechanism": "Angiotensin receptor blocker (ARB)�",
+      "mechanism": "Angiotensin receptor blocker (ARB)",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -24850,7 +24879,7 @@
       "virusShort": "HDV",
       "virusLong": "Hepatitis delta virus",
       "target": "Human ATR",
-      "mechanism": "Angiotensin receptor blocker (ARB)�",
+      "mechanism": "Angiotensin receptor blocker (ARB)",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -25550,7 +25579,7 @@
       "drug": "JIB-04",
       "drugNormalized": "jib-04",
       "virusShort": "RoV",
-      "virusLong": "RoV",
+      "virusLong": "Rotavirus",
       "target": "Human HDAC",
       "mechanism": "Human HDAC inhibitor",
       "preclinical": true,
@@ -26156,8 +26185,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -26185,8 +26214,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -26214,8 +26243,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -26838,7 +26867,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -26865,7 +26894,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -26892,7 +26921,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -28863,8 +28892,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -28890,8 +28919,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -28917,8 +28946,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -28944,8 +28973,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -30095,7 +30124,7 @@
       "virusShort": "FLUAV",
       "virusLong": "Influenza A virus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30122,7 +30151,7 @@
       "virusShort": "BUNV",
       "virusLong": "Bunyamwera orthobunyavirus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30149,7 +30178,7 @@
       "virusShort": "FLUBV",
       "virusLong": "Influenza B virus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30176,7 +30205,7 @@
       "virusShort": "HBV",
       "virusLong": "Hepatitis B virus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30203,7 +30232,7 @@
       "virusShort": "ECHOV-6",
       "virusLong": "Enterovirus B",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30230,7 +30259,7 @@
       "virusShort": "HIV-1",
       "virusLong": "Human immunodeficiency virus 1",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30257,7 +30286,7 @@
       "virusShort": "HSV-1",
       "virusLong": "Human alphaherpesvirus 1",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30284,7 +30313,7 @@
       "virusShort": "HSV-2",
       "virusLong": "Human alphaherpesvirus 2",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30311,7 +30340,7 @@
       "virusShort": "MERS-CoV",
       "virusLong": "Middle East respiratory syndrome-related coronavirus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30338,7 +30367,7 @@
       "virusShort": "MeV",
       "virusLong": "Measles morbillivirus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30365,7 +30394,7 @@
       "virusShort": "SINV",
       "virusLong": "Sindbis virus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30392,7 +30421,7 @@
       "virusShort": "ZIKV",
       "virusLong": "Zika virus",
       "target": "Human BCL2",
-      "mechanism": "Bcl-2/Bcl-xL�inhibitor",
+      "mechanism": "Bcl-2/Bcl-xL inhibitor",
       "preclinical": true,
       "phase2Initiated": false,
       "phase2Result": "",
@@ -30789,6 +30818,34 @@
       },
       "inchiKey": "QAGYKUNXZHXKMR-HKWSIXNMSA-N",
       "smiles": "CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O"
+    },
+    {
+      "id": "Netanasvir-HCV",
+      "drug": "Netanasvir",
+      "drugNormalized": "netanasvir",
+      "virusShort": "HCV",
+      "virusLong": "Hepacivirus C",
+      "target": "NS5A",
+      "mechanism": "NS5A inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2300066"
+      },
+      "inchiKey": "SXUUQUIMLYPBSV-IVSYMLMBSA-N",
+      "smiles": "CC1CCC(N1C(=O)C(C(C)C)NC(=O)OC)C2=NC3=C(N2)C=CC4=C3C=CC(=C4)C5=C6CCCC6=C(C=C5)C7=CN=C(N7)C8CC(CN8C(=O)C(C9=CC=CC=C9)NC(=O)OC)COC",
+      "pubchemCid": 122535557
     },
     {
       "id": "Niclosamide-DENV-2",
@@ -32195,6 +32252,34 @@
       "smiles": "CC1=CC(=C(N1)C=C2C(=CC(=C3C=C4C=CC=CC4=N3)N2)OC)C"
     },
     {
+      "id": "Olgotrelvir-SARS-CoV-2",
+      "drug": "Olgotrelvir",
+      "drugNormalized": "olgotrelvir",
+      "virusShort": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Mpro; CTSL",
+      "mechanism": "Mpro and cathepsin L dual inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "uncertain",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 —"
+      },
+      "inchiKey": "IICZZAVAIPTWCL-HBIMBUPRSA-N",
+      "smiles": "CC(C)CC(C(=O)NC(CC1CCNC1=O)C(O)S(=O)(=O)O)NC(=O)C2=CC3=CC=CC=C3N2",
+      "pubchemCid": 166157331
+    },
+    {
       "id": "Oritavancin-EBOV",
       "drug": "Oritavancin",
       "drugNormalized": "oritavancin",
@@ -32373,7 +32458,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -32401,7 +32486,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -32429,7 +32514,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -32764,6 +32849,62 @@
       },
       "inchiKey": "IWVRVEIKCBFZNF-UHFFFAOYSA-N",
       "smiles": "CC1=CC2=C(C=C1)N3CCNC4C3=C2CCC4"
+    },
+    {
+      "id": "Pixavir_marboxil-FLUBV",
+      "drug": "Pixavir marboxil",
+      "drugNormalized": "pixavir marboxil",
+      "virusShort": "FLUBV",
+      "virusLong": "Influenza B virus",
+      "target": "CEN",
+      "mechanism": "Cap-dependent endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2400073"
+      },
+      "inchiKey": "XNCHLCOISMLPJG-QFIPXVFZSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)C3(CC3)CN(N2C=CC1=O)C4C5=C(CSC6=CC=CC=C46)C(=C(C=C5)F)F",
+      "pubchemCid": 139338844
+    },
+    {
+      "id": "Pixavir_marboxil-FLUAV",
+      "drug": "Pixavir marboxil",
+      "drugNormalized": "pixavir marboxil",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "CEN",
+      "mechanism": "Cap-dependent endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2400073"
+      },
+      "inchiKey": "XNCHLCOISMLPJG-QFIPXVFZSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)C3(CC3)CN(N2C=CC1=O)C4C5=C(CSC6=CC=CC=C46)C(=C(C=C5)F)F",
+      "pubchemCid": 139338844
     },
     {
       "id": "Podofilox-MCV",
@@ -34294,8 +34435,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34321,8 +34462,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34348,8 +34489,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34375,8 +34516,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34402,8 +34543,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34429,8 +34570,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34456,8 +34597,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34483,8 +34624,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34510,8 +34651,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34537,8 +34678,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34564,8 +34705,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34591,8 +34732,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34618,8 +34759,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -34714,7 +34855,7 @@
       "drug": "Resveratrol",
       "drugNormalized": "resveratrol",
       "virusShort": "RoV",
-      "virusLong": "RoV",
+      "virusLong": "Rotavirus",
       "target": "Human multiple; Viral transcriptional regulator",
       "mechanism": "Multiple",
       "preclinical": true,
@@ -35023,8 +35164,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35051,8 +35192,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35078,8 +35219,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35105,8 +35246,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35132,8 +35273,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35159,8 +35300,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35186,8 +35327,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35213,8 +35354,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35240,8 +35381,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35267,8 +35408,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35294,8 +35435,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35321,8 +35462,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35348,8 +35489,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35375,8 +35516,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35402,8 +35543,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35429,8 +35570,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35456,8 +35597,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35483,8 +35624,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35510,8 +35651,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35537,8 +35678,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35564,8 +35705,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35647,7 +35788,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35675,7 +35816,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35702,7 +35843,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35729,7 +35870,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35756,7 +35897,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -35783,7 +35924,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -36377,7 +36518,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -36405,7 +36546,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -36432,7 +36573,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -36459,7 +36600,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -36548,6 +36689,62 @@
       },
       "inchiKey": "OUKYUETWWIPKQR-UHFFFAOYSA-N",
       "smiles": "CN1CCN(CC1)CCOC2=CC3=C(C(=C2)OC4CCOCC4)C(=NC=N3)NC5=C(C=CC6=C5OCO6)Cl"
+    },
+    {
+      "id": "Sebaloxavir_marboxil-FLUBV",
+      "drug": "Sebaloxavir marboxil",
+      "drugNormalized": "sebaloxavir marboxil",
+      "virusShort": "FLUBV",
+      "virusLong": "Influenza B virus",
+      "target": "PA",
+      "mechanism": "PA endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2400011"
+      },
+      "inchiKey": "JHFNSOXZQCIAIH-GGAORHGYSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)N3CCOCC3N(N2C=CC1=O)C4C5=C(C[Se]C6=CC=CC=C46)C(=C(C=C5)F)F",
+      "pubchemCid": 163196322
+    },
+    {
+      "id": "Sebaloxavir_marboxil-FLUAV",
+      "drug": "Sebaloxavir marboxil",
+      "drugNormalized": "sebaloxavir marboxil",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "PA",
+      "mechanism": "PA endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2400011"
+      },
+      "inchiKey": "JHFNSOXZQCIAIH-GGAORHGYSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)N3CCOCC3N(N2C=CC1=O)C4C5=C(C[Se]C6=CC=CC=C46)C(=C(C=C5)F)F",
+      "pubchemCid": 163196322
     },
     {
       "id": "Seliciclib-VZV",
@@ -37619,7 +37816,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -37646,7 +37843,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -37673,7 +37870,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -37700,7 +37897,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -37727,7 +37924,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -37754,7 +37951,7 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
+        "china": true,
         "russia": false,
         "southKorea": false
       },
@@ -38052,7 +38249,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -38080,7 +38277,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -38107,7 +38304,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -38763,6 +38960,62 @@
       },
       "inchiKey": "FIAFUQMPZJWCLV-UHFFFAOYSA-N",
       "smiles": "CC1=C(C=C(C=C1)C(=O)NC2=C3C(=CC(=CC3=C(C=C2)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)NC(=O)C4=CC(=CC=C4)NC(=O)NC5=CC=CC(=C5)C(=O)NC6=C(C=CC(=C6)C(=O)NC7=C8C(=CC(=CC8=C(C=C7)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)C"
+    },
+    {
+      "id": "Suraxavir_marboxil-FLUBV",
+      "drug": "Suraxavir marboxil",
+      "drugNormalized": "suraxavir marboxil",
+      "virusShort": "FLUBV",
+      "virusLong": "Influenza B virus",
+      "target": "PA",
+      "mechanism": "PA endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2300106; CXHB2400256"
+      },
+      "inchiKey": "IVHSRYSBKJOVJK-VWNXMTODSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)N3CC4(CC4)OCC3N(N2C=CC1=O)C5C6=C(CSC7=CC=CC=C57)C(=C(C=C6)F)F",
+      "pubchemCid": 153289974
+    },
+    {
+      "id": "Suraxavir_marboxil-FLUAV",
+      "drug": "Suraxavir marboxil",
+      "drugNormalized": "suraxavir marboxil",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "PA",
+      "mechanism": "PA endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "NMPA 2025 CXHS2300106; CXHB2400256"
+      },
+      "inchiKey": "IVHSRYSBKJOVJK-VWNXMTODSA-N",
+      "smiles": "COC(=O)OCOC1=C2C(=O)N3CC4(CC4)OCC3N(N2C=CC1=O)C5C6=C(CSC7=CC=CC=C57)C(=C(C=C6)F)F",
+      "pubchemCid": 153289974
     },
     {
       "id": "Tamoxifen-HCV",
@@ -39591,8 +39844,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40133,7 +40386,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40160,7 +40413,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40187,7 +40440,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40214,7 +40467,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40241,7 +40494,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40268,7 +40521,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40295,7 +40548,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40322,7 +40575,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40349,7 +40602,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40376,7 +40629,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40403,7 +40656,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40917,7 +41170,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40944,7 +41197,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -40971,7 +41224,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41215,8 +41468,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41242,8 +41495,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41269,8 +41522,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41296,8 +41549,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41323,8 +41576,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41350,8 +41603,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41377,8 +41630,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41404,8 +41657,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41431,8 +41684,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41458,8 +41711,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41485,8 +41738,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41512,8 +41765,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41539,8 +41792,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41567,8 +41820,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41595,8 +41848,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41623,8 +41876,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41651,8 +41904,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41680,8 +41933,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41708,8 +41961,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41735,8 +41988,8 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41763,8 +42016,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -41790,8 +42043,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": false,
-        "russia": false,
+        "china": true,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -42562,7 +42815,7 @@
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "HPV",
-      "virusLong": "HPV",
+      "virusLong": "Human papillomavirus",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,
@@ -42589,7 +42842,7 @@
       "drug": "Vidarabine",
       "drugNormalized": "vidarabine",
       "virusShort": "HAdV",
-      "virusLong": "HAdV",
+      "virusLong": "Human adenovirus",
       "target": "Viral DNA pol",
       "mechanism": "Viral DNA synthesis inhibitor",
       "preclinical": true,
@@ -42956,7 +43209,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -42984,7 +43237,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -43011,7 +43264,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -43038,7 +43291,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -43065,7 +43318,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": false,
+        "russia": true,
         "southKorea": false
       },
       "references": {
@@ -43073,6 +43326,632 @@
       },
       "inchiKey": "HBOMLICNUCNMMY-XLPZGREQSA-N",
       "smiles": "CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-]"
+    },
+    {
+      "id": "GS-5894-HIV-1",
+      "drug": "GS-5894",
+      "drugNormalized": "gs-5894",
+      "virusShort": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
+      "target": "HIV-1 reverse transcriptase",
+      "mechanism": "Non-nucleoside reverse transcriptase inhibitor (NNRTI)",
+      "preclinical": true,
+      "phase2Initiated": false,
+      "phase2Result": "",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT05585307; CID:121448097"
+      },
+      "inchiKey": "HKETUZQMIFPGNG-SNAWJCMRSA-N",
+      "smiles": "Cc1cc(/C=C/C#N)cc(C)c1-c1cccc2c(N)nc(Nc3ccc(C#N)cc3)nc12",
+      "pubchemCid": "121448097"
+    },
+    {
+      "id": "GS-1720-HIV-1",
+      "drug": "GS-1720",
+      "drugNormalized": "gs-1720",
+      "virusShort": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
+      "target": "HIV-1 integrase",
+      "mechanism": "Integrase strand transfer inhibitor (INSTI)",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "",
+      "phase3Initiated": true,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT06544733; NCT06613685"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "VH4524184-HIV-1",
+      "drug": "VH4524184",
+      "drugNormalized": "vh4524184",
+      "virusShort": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
+      "target": "HIV-1 integrase",
+      "mechanism": "Third-generation integrase strand transfer inhibitor (INSTI)",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "phase2": "40117383",
+        "drugvirusInfo": "NCT06214052; NCT05631704"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "GS-6212-HIV-1",
+      "drug": "GS-6212",
+      "drugNormalized": "gs-6212",
+      "virusShort": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
+      "target": "HIV-1 integrase",
+      "mechanism": "Integrase strand transfer inhibitor (INSTI)",
+      "preclinical": true,
+      "phase2Initiated": false,
+      "phase2Result": "",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT05585307"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "Peramivir-FLUBV",
+      "drug": "Peramivir",
+      "drugNormalized": "peramivir",
+      "virusShort": "FLUBV",
+      "virusLong": "Influenza B virus",
+      "target": "Neuraminidase",
+      "mechanism": "Neuraminidase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": true,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "CID:135565990; DB11979"
+      },
+      "inchiKey": "XRQDFNLINLXZLB-CKIKVBCHSA-N",
+      "smiles": "CCC(CC)C(C1C(CC(C1O)C(=O)O)N=C(N)N)NC(=O)C"
+    },
+    {
+      "id": "Bemnifosbuvir-HCV",
+      "drug": "Bemnifosbuvir",
+      "drugNormalized": "bemnifosbuvir",
+      "virusShort": "HCV",
+      "virusLong": "Hepacivirus C",
+      "target": "NS5B RNA-dependent RNA polymerase",
+      "mechanism": "NS5B polymerase inhibitor; nucleotide analog prodrug",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT05622500"
+      },
+      "inchiKey": "OISLSHLAXHALQZ-LZEIJKKFSA-N",
+      "smiles": "CC(C)OC(=O)C(C)NP(=O)(OCC1C(C(C(O1)N2C=NC3=C(N=C(N=C32)N)NC)(C)F)O)OC4=CC=CC=C4",
+      "pubchemCid": null,
+      "drugbankId": null
+    },
+    {
+      "id": "Bulevirtide-HBV",
+      "drug": "Bulevirtide",
+      "drugNormalized": "bulevirtide",
+      "virusShort": "HBV",
+      "virusLong": "Hepatitis B virus",
+      "target": "NTCP (sodium taurocholate cotransporting polypeptide)",
+      "mechanism": "Entry inhibitor; pre-S1 lipopeptide blocking NTCP-mediated hepatocyte entry",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "negative",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT02881008; DB15248"
+      },
+      "inchiKey": "WQNDXLHKAMIGEX-WOAPPVHJSA-N",
+      "smiles": "CCCCCCCCCCCCCC(=O)NCC(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C(C)C)C(=O)N1CCCC1C(=O)NC(CC(=O)N)C(=O)N2CCCC2C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CC3=CC=CC=C3)C(=O)NC(CC4=CC=CC=C4)C(=O)N5CCCC5C(=O)NC(CC(=O)O)C(=O)NC(CC6=CNC=N6)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)N7CCCC7C(=O)NC(C)C(=O)NC(CC8=CC=CC=C8)C(=O)NCC(=O)NC(C)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)N)C(=O)N9CCCC9C(=O)NC(CC(=O)O)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC(=O)N)C(=O)N1CCCC1C(=O)NC(CC(=O)N)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC1=CNC=N1)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)N1CCCC1C(=O)NC(CCC(=O)O)C(=O)NC(C)C(=O)NC(CC(=O)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NCC(=O)N"
+    },
+    {
+      "id": "Hepalatide-HBV",
+      "drug": "Hepalatide",
+      "drugNormalized": "hepalatide",
+      "virusShort": "HBV",
+      "virusLong": "Hepatitis B virus",
+      "target": "NTCP (sodium taurocholate cotransporting polypeptide)",
+      "mechanism": "Entry inhibitor; pre-S1 lipopeptide blocking NTCP-mediated hepatocyte entry",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT04426968"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "Morphothiadin-HBV",
+      "drug": "Morphothiadin",
+      "drugNormalized": "morphothiadin",
+      "virusShort": "HBV",
+      "virusLong": "Hepatitis B virus",
+      "target": "HBV core protein (HBc)",
+      "mechanism": "Capsid assembly modulator (CAM); induces aberrant nucleocapsid assembly",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "phase2": "32649736",
+        "drugvirusInfo": "CID:25144422; NCT04147208; NCT03638076"
+      },
+      "inchiKey": "SQGRDKSRFFUBBU-UHFFFAOYSA-N",
+      "smiles": "CCOC(=O)C1=C(NC(=NC1C2=C(C=C(C=C2)F)Br)C3=NC=CS3)CN4CCOCC4",
+      "pubchemCid": "25144422"
+    },
+    {
+      "id": "QL-007-HBV",
+      "drug": "QL-007",
+      "drugNormalized": "ql-007",
+      "virusShort": "HBV",
+      "virusLong": "Hepatitis B virus",
+      "target": "HBV core protein (HBc)",
+      "mechanism": "Capsid assembly modulator (CAM); dual mechanism: induces malformed capsid assembly and disassembles existing capsids",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "phase2": "37683938",
+        "drugvirusInfo": "NCT04157699; NCT03244085"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "WPV01-SARS-CoV-2",
+      "drug": "WPV01",
+      "drugNormalized": "wpv01",
+      "virusShort": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "SARS-CoV-2 main protease (Mpro / 3CLpro)",
+      "mechanism": "Main protease inhibitor (Mpro); non-covalent, non-peptidic",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "",
+      "phase3Initiated": true,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "NCT06197217; CID:156774920"
+      },
+      "inchiKey": "BPLNOSFMIIASSJ-UXHICEINSA-N",
+      "smiles": "CNC(=O)C1=C(C(=CC(=C1)Br)[N+](=O)[O-])N[C@@H]2CCCC[C@@H]2NC(=O)C3=CN=CC4=CC=CC=C43",
+      "pubchemCid": "156774920"
+    },
+    {
+      "id": "Cytarabine-HSV-1",
+      "drug": "Cytarabine",
+      "drugNormalized": "cytarabine",
+      "virusShort": "HSV-1",
+      "virusLong": "Human alphaherpesvirus 1",
+      "target": "Viral DNA polymerase",
+      "mechanism": "Nucleoside analog; DNA polymerase inhibitor; chain terminator",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "negative",
+      "phase3Initiated": false,
+      "phase3Result": "",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "drugvirusInfo": "CID:6253; DB00987"
+      },
+      "inchiKey": "UHDGCWIWMRVCDJ-CCXZUQQUSA-N",
+      "smiles": "C1=CN(C(=O)N=C1N)[C@H]2[C@H]([C@@H]([C@H](O2)CO)O)O",
+      "pubchemCid": "6253",
+      "drugbankId": "DB00987"
+    },
+    {
+      "id": "Imiquimod-HPV",
+      "drug": "Imiquimod",
+      "drugNormalized": "imiquimod",
+      "virusShort": "HPV",
+      "virusLong": "Human papillomavirus",
+      "target": "TLR7 (toll-like receptor 7)",
+      "mechanism": "TLR7 agonist; stimulates innate immune response (IFN-α, TNF-α, IL-12 production)",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": true,
+        "europe": true,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "CID:57469; DB00724"
+      },
+      "inchiKey": "DOUYETYNDFWTID-UHFFFAOYSA-N",
+      "smiles": "Cc1nc2c(N)ncnc2n1CC1CC1",
+      "pubchemCid": "57469",
+      "drugbankId": "DB00724"
+    },
+    {
+      "id": "Sinecatechins-HPV",
+      "drug": "Sinecatechins",
+      "drugNormalized": "sinecatechins",
+      "virusShort": "HPV",
+      "virusLong": "Human papillomavirus",
+      "target": "Unknown (multiple)",
+      "mechanism": "Botanical immunomodulator; green tea catechin extract (EGCG-enriched); antioxidant and antiviral polyphenols",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": true,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "AntiviralDb",
+        "drugvirusInfo": "CID:65064"
+      },
+      "inchiKey": "WMBWREPUVVBILR-WIYYLYMNSA-N",
+      "smiles": "O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1",
+      "pubchemCid": "65064"
+    },
+    {
+      "id": "Kagocel-FLUAV",
+      "drug": "Kagocel",
+      "drugNormalized": "kagocel",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "Host immune response",
+      "mechanism": "Interferon inducer",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "uncertain",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": true,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://grls.rosminzdrav.ru",
+        "drugvirusInfo": "Russia LP-(005941); approved 2003 in Russia for influenza/ARVI prophylaxis and treatment"
+      },
+      "inchiKey": "",
+      "smiles": "",
+      "pubchemCid": "11618368"
+    },
+    {
+      "id": "Enisamium_iodide-FLUAV",
+      "drug": "Enisamium iodide",
+      "drugNormalized": "enisamium iodide",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "Viral RNA pol",
+      "mechanism": "RNA-dependent RNA polymerase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": false,
+        "russia": true,
+        "southKorea": false
+      },
+      "references": {
+        "phase3": "https://pubmed.ncbi.nlm.nih.gov/35149144/",
+        "approval": "https://grls.rosminzdrav.ru",
+        "drugvirusInfo": "Approved Russia and Ukraine; trade name Amizon/Amizonchik"
+      },
+      "inchiKey": "",
+      "smiles": "",
+      "pubchemCid": "2733"
+    },
+    {
+      "id": "Simnotrelvir-SARS-CoV-2",
+      "drug": "Simnotrelvir",
+      "drugNormalized": "simnotrelvir",
+      "virusShort": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Viral protease",
+      "mechanism": "3CL protease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "phase3": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301425",
+        "approval": "https://english.nmpa.gov.cn",
+        "drugvirusInfo": "Simcere Pharmaceutical; brand Xiannuoxin (先诺欣); NMPA conditional approval Jan 2023; co-administered with ritonavir"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "Azvudine-HIV-1",
+      "drug": "Azvudine",
+      "drugNormalized": "azvudine",
+      "virusShort": "HIV-1",
+      "virusLong": "Human immunodeficiency virus 1",
+      "target": "Viral RT",
+      "mechanism": "Nucleoside reverse transcriptase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://english.nmpa.gov.cn",
+        "drugvirusInfo": "HenanGenuine Biotech; NMPA approved July 2021 for HIV; INN FNC; PubChem CID 135398735"
+      },
+      "inchiKey": "",
+      "smiles": "",
+      "pubchemCid": "135398735"
+    },
+    {
+      "id": "Azvudine-SARS-CoV-2",
+      "drug": "Azvudine",
+      "drugNormalized": "azvudine",
+      "virusShort": "SARS-CoV-2",
+      "virusLong": "Severe acute respiratory syndrome-related coronavirus",
+      "target": "Viral RNA pol",
+      "mechanism": "RNA-dependent RNA polymerase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://english.nmpa.gov.cn",
+        "drugvirusInfo": "NMPA conditional approval July 2022 for COVID-19; same compound as HIV INN FNC"
+      },
+      "inchiKey": "",
+      "smiles": "",
+      "pubchemCid": "135398735"
+    },
+    {
+      "id": "Onradivir-FLUAV",
+      "drug": "Onradivir",
+      "drugNormalized": "onradivir",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "Viral RNA pol",
+      "mechanism": "PB2 cap-binding inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://english.nmpa.gov.cn; NMPA 2025 CXHS2300118",
+        "drugvirusInfo": "NMPA approved 2024 for uncomplicated influenza A in adults"
+      },
+      "inchiKey": "JCHDJLSIYWBAHI-ZWHBIUKWSA-N",
+      "smiles": "C1CC2CCC1C(C2NC3=NC(=NC(=C3F)C4CC4)C5=C6C=C(C=NC6=NN5)F)C(=O)O",
+      "pubchemCid": 138746841
+    },
+    {
+      "id": "ZX-7101A-FLUAV",
+      "drug": "ZX-7101A",
+      "drugNormalized": "zx-7101a",
+      "virusShort": "FLUAV",
+      "virusLong": "Influenza A virus",
+      "target": "Viral endonuclease",
+      "mechanism": "Cap-dependent endonuclease inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://english.nmpa.gov.cn",
+        "drugvirusInfo": "Brand Zaitongwei (再通卫); NMPA approved 2024 for influenza; baloxavir-class"
+      },
+      "inchiKey": "",
+      "smiles": ""
+    },
+    {
+      "id": "Pradefovir_mesylate-HBV",
+      "drug": "Pradefovir mesylate",
+      "drugNormalized": "pradefovir mesylate",
+      "virusShort": "HBV",
+      "virusLong": "Hepatitis B virus",
+      "target": "Viral DNA pol",
+      "mechanism": "Nucleotide reverse transcriptase inhibitor",
+      "preclinical": true,
+      "phase2Initiated": true,
+      "phase2Result": "positive",
+      "phase3Initiated": true,
+      "phase3Result": "positive",
+      "approvals": {
+        "fda": false,
+        "europe": false,
+        "japan": false,
+        "china": true,
+        "russia": false,
+        "southKorea": false
+      },
+      "references": {
+        "approval": "https://english.nmpa.gov.cn/2025-02/19/c_1073651.htm",
+        "drugvirusInfo": "Xi'an Gelan Xintong Pharmaceutical; brand 新舒沐 (Xinshumu); NMPA Class 1 innovative drug, approved Feb 2025; liver-targeted PMEA prodrug"
+      },
+      "inchiKey": "",
+      "smiles": "",
+      "pubchemCid": "9869929"
     }
   ],
   "viruses": [
@@ -43484,13 +44363,13 @@
     "pul97 kinase",
     "sodium taurocholate cotransporting polypeptide receptor"
   ],
-  "lastUpdated": "2025-11-20",
+  "lastUpdated": "2026-05-03",
   "stats": {
-    "totalDrugs": 321,
-    "totalDrugVirusPairs": 1659,
-    "fdaApproved": 190,
-    "phase3": 262,
-    "phase2": 109,
-    "preclinical": 1288
+    "totalDrugs": 330,
+    "totalDrugVirusPairs": 1610,
+    "fdaApproved": 320,
+    "phase3": 48,
+    "phase2": 87,
+    "preclinical": 1155
   }
 }

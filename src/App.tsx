@@ -17,6 +17,8 @@ import type { FilterState, AntiviralEntry, ViewMode, ClinicalPhase } from './typ
 import { toDrugSlug } from './utils/drugSlug';
 import { DrugPage } from './views/DrugPage';
 import { VirusPage } from './views/VirusPage';
+import { VaccinesPage } from './views/VaccinesPage';
+import { VaccineDetailPage } from './views/VaccineDetailPage';
 import './App.css';
 
 const initialFilters: FilterState = {
@@ -245,6 +247,8 @@ function App() {
         <Route path="/viral-families" element={<ViralFamiliesPage />} />
         <Route path="/drug/:drugSlug" element={<DrugPage />} />
         <Route path="/virus/:virusSlug" element={<VirusPage />} />
+        <Route path="/vaccines" element={<VaccinesPage />} />
+        <Route path="/vaccine/:vaccineSlug" element={<VaccineDetailPage />} />
       </Routes>
     </>
   );

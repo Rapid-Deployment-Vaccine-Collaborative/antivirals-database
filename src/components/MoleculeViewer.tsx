@@ -94,29 +94,3 @@ export function MoleculeViewer({ smiles, width = 300, height = 200 }: MoleculeVi
     </div>
   );
 }
-
-/**
- * Simple placeholder for when we don't want to make network requests
- * Shows the SMILES string in a formatted way
- */
-export function MoleculeViewerPlaceholder({ smiles }: { smiles: string }) {
-  return (
-    <div className="molecule-viewer molecule-placeholder">
-      <div className="smiles-display">
-        <span className="smiles-label">SMILES</span>
-        <code className="smiles-string">
-          {smiles.length > 100 ? smiles.substring(0, 100) + '...' : smiles}
-        </code>
-      </div>
-      <a
-        href={`https://pubchem.ncbi.nlm.nih.gov/compound/structure?smiles=${encodeURIComponent(smiles)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="view-structure-link"
-      >
-        View 2D Structure
-        <ExternalLink size={14} />
-      </a>
-    </div>
-  );
-}

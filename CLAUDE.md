@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A research data visualization dashboard for antiviral drug discovery. It tracks clinical development stages (preclinical → Phase 2/3 → approved) for ~321 drugs across ~1,659 drug–virus pairs, with approval tracking across FDA, EMA, Japan, China, Russia, South Korea.
+A research data visualization dashboard for antiviral drug discovery. It tracks clinical development stages (preclinical → Phase 2/3 → approved) for ~325 drugs across ~1,592 drug–virus pairs, with approval tracking across FDA, EMA, Japan, China, Russia, South Korea.
 
 The app is used by researchers working on broad-spectrum antivirals. There is both a "researcher" view (full data tables) and a "public" view (card grid, capped results).
 
@@ -47,15 +47,15 @@ src/
     VirusPage.tsx           # /#/virus/:virusSlug
   components/
     DrugTable.tsx           # TanStack sortable/paginated table (25/page)
-    DrugCardGrid.tsx        # Public card grid view (max 50)
+    DrugCard.tsx            # Card used in the public card grid view
     FilterPanel.tsx         # Phase, virus, mechanism, approval checkboxes
     SearchBar.tsx           # Fuzzy search input
     PipelineChart.tsx       # Recharts bar chart
-    PipelineStats.tsx       # Summary stat cards
     ViralFamiliesTable.tsx  # Virus taxonomy table — see below
     MoleculeViewer.tsx      # 2D structure from SMILES
     Molecule3DViewer.tsx    # 3D structure via PubChem CID
     ExportButton.tsx        # CSV export via PapaParse
+    index.ts                # Barrel re-exports
   hooks/
     useAntiviralsData.ts    # Fetches all 3 JSON files; caches in module-level var
     useSearch.ts            # Fuse.js fuzzy search + filter memoization
@@ -86,9 +86,9 @@ interface AntiviralEntry {
   mechanism: string;
   preclinical: boolean;
   phase2Initiated: boolean;
-  phase2Result: 'Positive' | 'Negative' | 'Ongoing' | null;
+  phase2Result: 'positive' | 'negative' | 'unknown' | 'uncertain' | '' | null;
   phase3Initiated: boolean;
-  phase3Result: 'Positive' | 'Negative' | 'Ongoing' | null;
+  phase3Result: 'positive' | 'negative' | 'uncertain' | 'na' | '' | null;
   approvals: { fda: boolean; europe: boolean; japan: boolean; china: boolean; russia: boolean; southKorea: boolean };
   references: { phase2?: string; phase3?: string; approval?: string; drugvirusInfo?: string };
   inchiKey: string;
@@ -98,8 +98,8 @@ interface AntiviralEntry {
 }
 
 function getClinicalPhase(e: AntiviralEntry): 'approved' | 'phase3' | 'phase2' | 'preclinical'
-// Cascade: any of fda/europe/japan → 'approved'; phase3Initiated → 'phase3'; etc.
-// Note: china/russia/southKorea approvals do NOT count toward 'approved' phase.
+// Cascade: any approval (fda/europe/japan/china/russia/southKorea) → 'approved';
+// then phase3Initiated → 'phase3'; phase2Initiated → 'phase2'; else 'preclinical'.
 ```
 
 ---
@@ -180,6 +180,24 @@ Filtering (phase, virus, mechanism, approval region) happens after fuzzy search,
 
 ---
 
+## parseReferenceIdentifiers (`src/utils/parseReferenceIdentifiers.ts`)
+
+Parses semicolon-separated reference strings in `references.*` fields into `{ label, url }` pairs. Handles:
+- Full `https://` URLs (labels as hostname or "DOI" for doi.org links)
+- Bare DOIs (`10.xxxx/...`) and `doi: 10.xxxx/...` prefix form
+- Bare integers → PubMed (`https://pubmed.ncbi.nlm.nih.gov/{id}/`)
+- `PMID: 12345` prefix (strips trailing punctuation)
+- `NCT\d+` → ClinicalTrials.gov
+- `PACTR\d+` → Pan African Clinical Trials Registry
+- `PMCID: PMC\d+` → PubMed Central
+- `CID: \d+` → PubChem compound
+- `DB\d+` → DrugBank
+- Plain text (e.g. "AntiviralDb") → label only, no link
+
+Used by `DrugPage.tsx` for all four `references` fields, and previously `DrugDetail.tsx` (now deleted).
+
+---
+
 ## Data Quirks & Gotchas
 
 - **One drug, many entries**: acyclovir has entries for HSV-1, HSV-2, VZV, CMV, EBV, etc. DrugPage aggregates them.
@@ -190,3 +208,7 @@ Filtering (phase, virus, mechanism, approval region) happens after fuzzy search,
 - **Encoding**: antivirals.json had garbled UTF-8 characters (U+FFFD) in some `mechanism` fields — these were fixed in April 2025.
 - **3D structures** require a PubChem CID and fetch from the PubChem API at runtime; not all drugs have one.
 - **Approved compounds JSON** is large (6.1 MB) but is a separate dataset from antivirals.json — it stores SMILES/InChI for cross-referencing structures, not clinical data.
+- **Investigational compounds with no structure**: GS-1720, VH4524184, GS-6212 have empty `smiles` and `inchiKey` — structures not publicly disclosed as of May 2026.
+- **GS-5894 = bavtavirine** (INN): PubChem CID 121448097, ChEMBL CHEMBL5314504. Some informal sources incorrectly apply "bavtavirine" to GS-1720 (lepetegravir); ChEMBL/WHO INN confirm bavtavirine is the NNRTI GS-5894.
+- **GS-1720 = lepetegravir**: seamless Phase 2/3 WONDERS trials placed on FDA clinical hold June 2025 (CD4+ decreases); hold status as of May 2026 unresolved.
+- **GS-6212**: INSTI discontinued after Phase 1 (Gilead pivoting to GS-1614 + lenacapavir). Kept in DB for completeness.

@@ -234,7 +234,7 @@ function VirusClinicalCard({ entry }: { entry: AntiviralEntry }) {
         <div className={`timeline-stage ${entry.phase2Initiated ? 'completed' : ''}`}>
           <div className="stage-dot" />
           <span>Phase 2</span>
-          {entry.phase2Result && (
+          {entry.phase2Result && entry.phase2Result !== 'na' && (
             <span className={`result-badge result-${entry.phase2Result.toLowerCase()}`}>
               {entry.phase2Result}
             </span>
@@ -243,7 +243,7 @@ function VirusClinicalCard({ entry }: { entry: AntiviralEntry }) {
         <div className={`timeline-stage ${entry.phase3Initiated ? 'completed' : ''}`}>
           <div className="stage-dot" />
           <span>Phase 3</span>
-          {entry.phase3Result && (
+          {entry.phase3Result && entry.phase3Result !== 'na' && (
             <span className={`result-badge result-${entry.phase3Result.toLowerCase()}`}>
               {entry.phase3Result}
             </span>

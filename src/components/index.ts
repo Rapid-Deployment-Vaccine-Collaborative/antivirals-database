@@ -1,10 +1,11 @@
 export { SearchBar } from './SearchBar';
 export { FilterPanel } from './FilterPanel';
 export { DrugTable } from './DrugTable';
-export { DrugDetail } from './DrugDetail';
 export { DrugCard, DrugCardGrid } from './DrugCard';
-export { MoleculeViewer, MoleculeViewerPlaceholder } from './MoleculeViewer';
+export { MoleculeViewer } from './MoleculeViewer';
 export { PipelineChart, PipelineStats } from './PipelineChart';
-export { ExportButton, ExportJsonButton } from './ExportButton';
+export { ExportButton } from './ExportButton';
 export { ViralFamiliesTable } from './ViralFamiliesTable';
 export { Molecule3DViewer } from './Molecule3DViewer';
+export { VaccineTable } from './VaccineTable';
+export { VaccineFilterPanel } from './VaccineFilterPanel';

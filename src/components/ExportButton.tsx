@@ -58,30 +58,3 @@ export function ExportButton({ data, filename = 'antivirals_export' }: ExportBut
     </button>
   );
 }
-
-interface ExportJsonButtonProps {
-  data: AntiviralEntry[];
-  filename?: string;
-}
-
-export function ExportJsonButton({ data, filename = 'antivirals_export' }: ExportJsonButtonProps) {
-  const handleExport = () => {
-    const json = JSON.stringify(data, null, 2);
-    const blob = new Blob([json], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${filename}_${new Date().toISOString().split('T')[0]}.json`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-  };
-
-  return (
-    <button onClick={handleExport} className="export-button export-json">
-      <Download size={18} />
-      Export JSON
-    </button>
-  );
-}

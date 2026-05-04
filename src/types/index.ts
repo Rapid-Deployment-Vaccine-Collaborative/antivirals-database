@@ -100,7 +100,14 @@ export interface FilterState {
 }
 
 export function getClinicalPhase(entry: AntiviralEntry): ClinicalPhase {
-  if (entry.approvals.fda || entry.approvals.europe || entry.approvals.japan) {
+  if (
+    entry.approvals.fda ||
+    entry.approvals.europe ||
+    entry.approvals.japan ||
+    entry.approvals.china ||
+    entry.approvals.russia ||
+    entry.approvals.southKorea
+  ) {
     return 'approved';
   }
   if (entry.phase3Initiated) {
@@ -122,6 +129,57 @@ export function getPhaseLabel(phase: ClinicalPhase): string {
       return 'Phase 3';
     case 'approved':
       return 'Approved';
+  }
+}
+
+export type VaccinePhase = 'phase1' | 'phase2' | 'phase3' | 'approved';
+
+export interface VaccineTrial {
+  nctId: string;
+  phase: VaccinePhase | 'na';
+  disease: string;
+}
+
+export interface VaccineEntry {
+  vddbId: string;
+  vaccine: string;
+  vaccineNormalized: string;
+  virusLong: string;
+  virusShort: string;
+  type: string;
+  diseases: string[];
+  trials: VaccineTrial[];
+  secondaryTrialCount: number;
+  maxPhase: VaccinePhase | 'na';
+  approved: boolean;
+}
+
+export interface VaccinesData {
+  vaccines: VaccineEntry[];
+  viruses: string[];
+  vaccineTypes: string[];
+  lastUpdated: string;
+  stats: {
+    totalVaccines: number;
+    totalTrials: number;
+  };
+}
+
+export interface VaccineFilterState {
+  searchQuery: string;
+  viruses: string[];
+  types: string[];
+  phases: (VaccinePhase | 'na')[];
+  approvedOnly: boolean;
+}
+
+export function getVaccinePhaseLabel(phase: VaccinePhase | 'na'): string {
+  switch (phase) {
+    case 'phase1': return 'Phase 1';
+    case 'phase2': return 'Phase 2';
+    case 'phase3': return 'Phase 3';
+    case 'approved': return 'Approved';
+    case 'na': return '—';
   }
 }
 

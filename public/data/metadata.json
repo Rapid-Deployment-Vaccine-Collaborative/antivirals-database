@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-01-02T22:09:21.568Z",
+  "generatedAt": "2026-05-03T00:00:00.000Z",
   "antivirals": {
-    "totalDrugs": 321,
-    "totalDrugVirusPairs": 1659,
-    "fdaApproved": 190,
-    "phase3": 262,
-    "phase2": 109,
-    "preclinical": 1288
+    "totalDrugs": 330,
+    "totalDrugVirusPairs": 1610,
+    "fdaApproved": 320,
+    "phase3": 48,
+    "phase2": 87,
+    "preclinical": 1155
   },
   "approvedCompounds": {
     "total": 3311,

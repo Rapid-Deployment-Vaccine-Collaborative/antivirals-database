@@ -965,7 +965,8 @@ body {
   color: #b91c1c;
 }
 
-.result-uncertain {
+.result-uncertain,
+.result-unknown {
   background: #fef3c7;
   color: #92400e;
 }
