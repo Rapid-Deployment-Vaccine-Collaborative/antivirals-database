@@ -13,6 +13,7 @@ import { ArrowUpDown, ArrowUp, ArrowDown, ChevronLeft, ChevronRight, ExternalLin
 import type { AntiviralEntry, ClinicalPhase } from '../types';
 import { getClinicalPhase, getPhaseLabel, getApprovalRegions } from '../types';
 import { toDrugSlug, toVirusSlug } from '../utils/drugSlug';
+import { parseReferenceIdentifiers, type RefLink } from '../utils/parseReferenceIdentifiers';
 
 interface DrugTableProps {
   data: AntiviralEntry[];
@@ -21,6 +22,30 @@ interface DrugTableProps {
 }
 
 const columnHelper = createColumnHelper<AntiviralEntry>();
+
+// Collect up to `limit` reference links from the entry's references fields, in priority
+// order (approval > phase3 > phase2 > drugvirusInfo). Deduplicates by URL/label.
+function collectRefLinks(entry: AntiviralEntry, limit: number): RefLink[] {
+  const sources = [
+    entry.references.approval,
+    entry.references.phase3,
+    entry.references.phase2,
+    entry.references.drugvirusInfo,
+  ];
+  const seen = new Set<string>();
+  const out: RefLink[] = [];
+  for (const src of sources) {
+    if (!src) continue;
+    for (const ref of parseReferenceIdentifiers(src)) {
+      const key = ref.url ?? `label:${ref.label}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(ref);
+      if (out.length >= limit) return out;
+    }
+  }
+  return out;
+}
 
 export function DrugTable({ data, onRowClick, showResearcherColumns = false }: DrugTableProps) {
   const [sorting, setSorting] = useState<SortingState>([]);
@@ -119,42 +144,32 @@ export function DrugTable({ data, onRowClick, showResearcherColumns = false }: D
           header: 'Links',
           cell: (info) => {
             const row = info.row.original;
+            const refs = collectRefLinks(row, 3);
+            if (refs.length === 0) {
+              return <span className="external-links" style={{ color: '#9ca3af' }}>—</span>;
+            }
             return (
               <div className="external-links">
-                {row.pubchemCid && (
-                  <a
-                    href={`https://pubchem.ncbi.nlm.nih.gov/compound/${row.pubchemCid}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="PubChem"
-                    className="external-link"
-                  >
-                    PubChem
-                    <ExternalLink size={12} />
-                  </a>
+                {refs.map((ref, i) =>
+                  ref.url ? (
+                    <a
+                      key={`${ref.url}-${i}`}
+                      href={ref.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={ref.label}
+                      className="external-link"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {ref.label}
+                      <ExternalLink size={12} />
+                    </a>
+                  ) : (
+                    <span key={`${ref.label}-${i}`} className="external-link" title={ref.label}>
+                      {ref.label}
+                    </span>
+                  )
                 )}
-                {row.drugbankId && (
-                  <a
-                    href={`https://go.drugbank.com/drugs/${row.drugbankId}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="DrugBank"
-                    className="external-link"
-                  >
-                    DrugBank
-                    <ExternalLink size={12} />
-                  </a>
-                )}
-                <a
-                  href={`https://clinicaltrials.gov/search?term=${encodeURIComponent(row.drug)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="ClinicalTrials.gov"
-                  className="external-link"
-                >
-                  Trials
-                  <ExternalLink size={12} />
-                </a>
               </div>
             );
           },
