@@ -21,7 +21,8 @@ const APPROVAL_OPTIONS: { key: ApprovalKey; label: string }[] = [
 ];
 
 const PHASE_OPTIONS: { key: ClinicalPhase; label: string }[] = [
-  { key: 'approved', label: 'Approved' },
+  { key: 'approved_fda', label: 'FDA approved' },
+  { key: 'approved_other', label: 'Approved (other)' },
   { key: 'phase3', label: 'Phase 3' },
   { key: 'phase2', label: 'Phase 2' },
   { key: 'preclinical', label: 'Preclinical' },

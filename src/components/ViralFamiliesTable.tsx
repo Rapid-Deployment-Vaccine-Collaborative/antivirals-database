@@ -643,7 +643,7 @@ export function ViralFamiliesTable() {
     if (!antivirals) return map;
     for (const d of antivirals.drugs) {
       const phase = getClinicalPhase(d);
-      if (phase === 'approved') continue;
+      if (phase === 'approved_fda' || phase === 'approved_other') continue;
       if (!map.has(d.virusShort)) {
         map.set(d.virusShort, { p3: new Set(), p2: new Set(), pc: new Set() });
       }

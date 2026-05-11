@@ -11,7 +11,7 @@ import {
 } from '@tanstack/react-table';
 import { ArrowUpDown, ArrowUp, ArrowDown, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import type { AntiviralEntry, ClinicalPhase } from '../types';
-import { getClinicalPhase, getPhaseLabel, getApprovalRegions } from '../types';
+import { getClinicalPhase, getPhaseLabel, getApprovalRegions, PHASE_RANK } from '../types';
 import { toDrugSlug, toVirusSlug } from '../utils/drugSlug';
 import { parseReferenceIdentifiers, type RefLink } from '../utils/parseReferenceIdentifiers';
 
@@ -90,10 +90,15 @@ export function DrugTable({ data, onRowClick, showResearcherColumns = false }: D
         {
           id: 'phase',
           header: 'Phase',
+          sortingFn: (a, b, columnId) => {
+            const av = a.getValue<ClinicalPhase>(columnId);
+            const bv = b.getValue<ClinicalPhase>(columnId);
+            return PHASE_RANK[av] - PHASE_RANK[bv];
+          },
+          sortDescFirst: true,
           cell: (info) => {
             const phase = info.getValue() as ClinicalPhase;
-            const steps: ClinicalPhase[] = ['preclinical', 'phase2', 'phase3', 'approved'];
-            const progress = ((steps.indexOf(phase) + 1) / steps.length) * 100;
+            const progress = ((PHASE_RANK[phase] + 1) / 5) * 100;
             return (
               <div className="phase-cell">
                 <span className={`phase-badge phase-${phase}`}>
@@ -192,6 +197,7 @@ export function DrugTable({ data, onRowClick, showResearcherColumns = false }: D
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
+    enableSortingRemoval: false,
   });
 
   return (

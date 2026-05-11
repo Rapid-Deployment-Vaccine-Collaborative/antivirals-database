@@ -113,6 +113,7 @@ export function VaccineTable({ data, onRowClick }: VaccineTableProps) {
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
+    enableSortingRemoval: false,
   });
 
   return (

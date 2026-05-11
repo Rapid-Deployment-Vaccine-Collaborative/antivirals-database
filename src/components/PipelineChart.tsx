@@ -24,7 +24,8 @@ const PHASE_COLORS: Record<ClinicalPhase, string> = {
   preclinical: '#94a3b8',
   phase2: '#60a5fa',
   phase3: '#34d399',
-  approved: '#22c55e',
+  approved_other: '#14b8a6',
+  approved_fda: '#16a34a',
 };
 
 export function PipelineChart({ drugs, chartType = 'bar' }: PipelineChartProps) {
@@ -33,7 +34,8 @@ export function PipelineChart({ drugs, chartType = 'bar' }: PipelineChartProps) 
       preclinical: 0,
       phase2: 0,
       phase3: 0,
-      approved: 0,
+      approved_other: 0,
+      approved_fda: 0,
     };
 
     drugs.forEach((drug) => {
@@ -45,7 +47,8 @@ export function PipelineChart({ drugs, chartType = 'bar' }: PipelineChartProps) 
       { phase: 'preclinical', name: 'Preclinical', count: counts.preclinical, color: PHASE_COLORS.preclinical },
       { phase: 'phase2', name: 'Phase 2', count: counts.phase2, color: PHASE_COLORS.phase2 },
       { phase: 'phase3', name: 'Phase 3', count: counts.phase3, color: PHASE_COLORS.phase3 },
-      { phase: 'approved', name: 'Approved', count: counts.approved, color: PHASE_COLORS.approved },
+      { phase: 'approved_other', name: 'Approved (other)', count: counts.approved_other, color: PHASE_COLORS.approved_other },
+      { phase: 'approved_fda', name: 'FDA approved', count: counts.approved_fda, color: PHASE_COLORS.approved_fda },
     ];
   }, [drugs]);
 

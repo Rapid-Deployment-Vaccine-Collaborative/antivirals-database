@@ -89,7 +89,15 @@ export interface Metadata {
 
 export type ViewMode = 'public' | 'researcher';
 
-export type ClinicalPhase = 'preclinical' | 'phase2' | 'phase3' | 'approved';
+export type ClinicalPhase = 'preclinical' | 'phase2' | 'phase3' | 'approved_other' | 'approved_fda';
+
+export const PHASE_RANK: Record<ClinicalPhase, number> = {
+  preclinical: 0,
+  phase2: 1,
+  phase3: 2,
+  approved_other: 3,
+  approved_fda: 4,
+};
 
 export interface FilterState {
   searchQuery: string;
@@ -100,15 +108,17 @@ export interface FilterState {
 }
 
 export function getClinicalPhase(entry: AntiviralEntry): ClinicalPhase {
+  if (entry.approvals.fda) {
+    return 'approved_fda';
+  }
   if (
-    entry.approvals.fda ||
     entry.approvals.europe ||
     entry.approvals.japan ||
     entry.approvals.china ||
     entry.approvals.russia ||
     entry.approvals.southKorea
   ) {
-    return 'approved';
+    return 'approved_other';
   }
   if (entry.phase3Initiated) {
     return 'phase3';
@@ -127,8 +137,10 @@ export function getPhaseLabel(phase: ClinicalPhase): string {
       return 'Phase 2';
     case 'phase3':
       return 'Phase 3';
-    case 'approved':
-      return 'Approved';
+    case 'approved_other':
+      return 'Approved (other)';
+    case 'approved_fda':
+      return 'FDA approved';
   }
 }
 

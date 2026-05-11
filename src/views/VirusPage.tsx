@@ -119,7 +119,10 @@ function VirusPageContent({ entries, info }: { entries: AntiviralEntry[]; info?:
   const navigate = useNavigate();
   const rep = entries[0];
 
-  const approved = entries.filter((e) => getClinicalPhase(e) === 'approved').length;
+  const approved = entries.filter((e) => {
+    const p = getClinicalPhase(e);
+    return p === 'approved_fda' || p === 'approved_other';
+  }).length;
   const phase3 = entries.filter((e) => getClinicalPhase(e) === 'phase3').length;
   const phase2 = entries.filter((e) => getClinicalPhase(e) === 'phase2').length;
   const preclinical = entries.filter((e) => getClinicalPhase(e) === 'preclinical').length;

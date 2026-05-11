@@ -20,6 +20,8 @@
   --phase-phase2: #60a5fa;
   --phase-phase3: #34d399;
   --phase-approved: #22c55e;
+  --phase-approved_other: #14b8a6;
+  --phase-approved_fda: #16a34a;
 
   --sidebar-width: 280px;
   --header-height: 80px;
@@ -451,6 +453,17 @@ body {
 .phase-approved {
   background: #dcfce7;
   color: #15803d;
+}
+
+.phase-approved_fda {
+  background: #dcfce7;
+  color: #14532d;
+  font-weight: 600;
+}
+
+.phase-approved_other {
+  background: #ccfbf1;
+  color: #115e59;
 }
 
 /* === Approval Badges === */
@@ -1770,6 +1783,8 @@ body {
 .phase-fill-phase2      { background: var(--phase-phase2); }
 .phase-fill-phase3      { background: var(--phase-phase3); }
 .phase-fill-approved    { background: var(--phase-approved); }
+.phase-fill-approved_fda   { background: var(--phase-approved_fda); }
+.phase-fill-approved_other { background: var(--phase-approved_other); }
 
 .stat-card-link {
   text-decoration: none;
