@@ -746,7 +746,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": true,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -1059,8 +1059,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -1327,8 +1327,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -1530,7 +1530,7 @@
         "fda": true,
         "europe": false,
         "japan": false,
-        "china": true,
+        "china": false,
         "russia": true,
         "southKorea": false
       },
@@ -5691,8 +5691,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -5718,8 +5718,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18506,8 +18506,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18533,8 +18533,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18560,8 +18560,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18587,8 +18587,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18614,8 +18614,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18641,8 +18641,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18668,8 +18668,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18695,8 +18695,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18722,8 +18722,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18749,8 +18749,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18776,8 +18776,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18803,8 +18803,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18830,8 +18830,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18857,8 +18857,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -18884,8 +18884,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -26867,7 +26867,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": true,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -26894,7 +26894,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": true,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -26921,7 +26921,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": true,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -28892,8 +28892,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -28919,8 +28919,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -28946,8 +28946,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -28973,8 +28973,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34435,8 +34435,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34462,8 +34462,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34489,8 +34489,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34516,8 +34516,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34543,8 +34543,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34570,8 +34570,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34597,8 +34597,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34624,8 +34624,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34651,8 +34651,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34678,8 +34678,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34705,8 +34705,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34732,8 +34732,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -34759,8 +34759,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35246,8 +35246,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35327,8 +35327,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35381,8 +35381,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35408,8 +35408,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35435,8 +35435,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35462,8 +35462,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35489,8 +35489,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35516,8 +35516,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35543,8 +35543,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35570,8 +35570,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35597,8 +35597,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35624,8 +35624,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35651,8 +35651,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35678,8 +35678,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -35705,8 +35705,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -39844,8 +39844,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41468,8 +41468,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41495,8 +41495,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41522,8 +41522,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41549,8 +41549,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41576,8 +41576,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41603,8 +41603,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41630,8 +41630,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41657,8 +41657,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41684,8 +41684,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41711,8 +41711,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41738,8 +41738,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41765,8 +41765,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -41961,8 +41961,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -42016,8 +42016,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -42043,8 +42043,8 @@
         "fda": false,
         "europe": false,
         "japan": false,
-        "china": true,
-        "russia": true,
+        "china": false,
+        "russia": false,
         "southKorea": false
       },
       "references": {
@@ -43318,7 +43318,7 @@
         "europe": false,
         "japan": false,
         "china": false,
-        "russia": true,
+        "russia": false,
         "southKorea": false
       },
       "references": {
